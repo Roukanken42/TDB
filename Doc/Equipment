@@ -1,0 +1,92 @@
+EquipmentLookInfoData
+
+LookInfo : ????
+LookInfo.id : id of the equipment	
+LookInfo.amanFemalePartId : correspondent if for aman female {number}
+LookInfo.amanMalePartId : correspondent if for aman male {number}
+LookInfo.barakaMalePartId : correspondent if for baraka {number}
+LookInfo.castanicFemalePartId : correspondent if for castanic female {number}
+LookInfo.castanicMalePartId : correspondent if for castanic male {number}
+LookInfo.highelfFemalePartId : correspondent if for high elf female {number}
+LookInfo.highelfMalePartId : correspondent if for high elf male {number}
+LookInfo.humanFemalePartId : correspondent if for human female {number}
+LookInfo.humanMalePartId : correspondent if for human male {number}
+LookInfo.poporiFemalePartId : correspondent if for elin {number}
+LookInfo.poporiMalePartId : correspondent if for popori {number}
+LookInfo.engineer_castanicFemalePartId : correspondent if for castanic gunner {number}
+LookInfo.engineer_highelfFemalePartId : correspondent if for high elf gunner {number}
+LookInfo.fighter_humanFemalePartId : correspondent if for  brawler {number}
+LookInfo.assasin_poporiFemalePartId : correspondent if for ninja {number}
+LookInfo.soulless_poporiFemalePartId : correspondent if for reaper {number}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EquipmentData
+
+Equipment : ????
+Equipment.equipmentId : id of the equipment {number}
+Equipment.balance : total balance that the equipment give {number}
+Equipment.countOfSlot : how many crystals slot have {2,3,4}
+Equipment.def : total defense modifier that the equipment give {number}
+Equipment.impact : total impact modifier that the equipment give {number}
+Equipment.maxAtk : total attack modifier of the equipment is equal to minAtk {number}
+Equipment.minAtk : total attack modifier of the equipment is equal to minAtk {number}
+Equipment.passivityLinkG : link to a to a group of passivity that gives the base modifiers of the equipment {number}
+Equipment.part : which part of the armor the equipment go {BODY,HAND,FEET,FINGER,NECK,EAR,UNDERWEAR,BELT,ACCESSORYHAIR,STYLE_FACE,STYLE_HAIR,STYLE_WEAPON,STYLE_BODY,STYLE_BACK,BROOCH}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EquipmentEnchantData
+
+EnchantData
+EnchantData.Enchant
+EnchantData.Enchant.id : id of the equipment {number}
+EnchantData.Enchant.Effect
+EnchantData.Enchant.Effect.step : level of enchant {number}
+EnchantData.Enchant.Effect.passivityCategoryId : id category of the passivity (EnchantData.PassivityCategoryData) {number}
+EnchantData.Enchant.BasicStat
+EnchantData.Enchant.BasicStat.kind : type of basic stat {defece,attack,impact,balance}
+EnchantData.Enchant.BasicStat.rate : rate based on base value that modifier is increase at each step {number}
+EnchantData.Enchant.BasicStat.enchantStep : added when is +13 to +15 to used another values than +0 to +12 {number}
+EnchantData.PassivityCategoryData : list of all passivity the equipment have {number}
+EnchantData.PassivityCategoryData.Category 
+EnchantData.PassivityCategoryData.Category.id : category id {number}
+EnchantData.PassivityCategoryData.Category.passivityLink : id of the passivity is used {number}
+EnchantData.PassivityCategoryData.Category.unchangeable : means you cant rerroll
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EquipmentInheritaceData
+
+//used for retoll (eg. vm8->vm8.5)
+
+Token :
+Token.templateId : id item of the token used {number}
+Token.artifact : //there is no false, so impossible to tell
+Token.awaken : if can be used in an awaken item
+Token.enchant : if can be used in an enchanted item
+Token.masterpiece : if can be used in a masterwork item
+Token.scroll : ???? {true =vergos, false = accessory}??
+Token.InheritInfo : before and after
+Token.InheritInfo.targetTemplateId : item that is used {number}
+Token.InheritInfo.resultTemplateId : item that you get {number}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EquipmentSetData
+
+EquipmentSet :
+EquipmentSet.id : id of the set
+EquipmentSet.Effect : effect data based on number of items in the set
+EquipmentSet.Effect.countOfEquipment : how many items of the set you need have
+EquipmentSet.Effect.passiveList : passivity id that is applied
+EquipmentSet.ItemList : information about the items that the set have
+EquipmentSet.ItemList.Item : information about the item
+EquipmentSet.ItemList.Item.id : id of the possible items (multiple id means they overlap)
+EquipmentSet.ItemList.Item.equipPos : possition que equipment go in the character 
+EquipmentSet.ItemList.Item.itemDelegatorName : //i have no idea//
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+StrSheet_EquipmentSetData
+
+INFORMATION ABOUT EQUIPMENT SETS
+
+String :
+String.id : id of the set
+String.string : equipment set name

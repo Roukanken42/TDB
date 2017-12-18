@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ITEM DATA
+
+Id : Item Identity
+name : Item name
+coolTime : cooldown to use the item
+catergory: category of the item
+          {'twohand', 'gauntlet', 'order', 'handLeather', 'belt', 'style_circle', 'service', 'armorMaterial', 'fiber', 'metal', 'dyeItem', 'feetRobe', 'weaponMaterial', 'artisan', 'quest', 'dyeRecipe', 'feetLeather', 'rod', 'style_twohand', 'handMail', 'dual', 'customize_weapon', 'staff', 'enchantScroll', 'token', 'document', 'etc', 'armorComponent', 'earring', 'style_face', 'style_gauntlet', 'lance', 'handRobe', 'TOKEN', 'combat', 'feetMail', 'enchant_agent', 'bow', 'style_blaster', 'crestPoint', 'petAdult', 'dyeRaw', 'style_lance', 'style_chain', 'style_hair', 'style_axe', 'shuriken', 'alchemy', 'leather', 'necklace', 'magical', 'accessoryFace', 'skillbook', 'blaster', 'crest', 'brooch', 'alchemyMaterial', 'keyItem', 'weaponComponent', 'style_bow', 'recipe', 'style_back', 'petOrb', 'customize_accessory', 'generalMaterial', 'underwear', 'chain', 'axe', 'union', 'ring', 'style_body', 'bodyLeather', 'style_dual', 'circle', 'pkitem', 'style_shuriken', 'accessoryHair', 'style_staff', 'medal', 'extractRecipe', 'charm', 'style_rod', 'enchantComponent', 'bodyRobe', 'bodyMail', 'enchant_material', 'fireworkMaterial', 'customize_armor'}
+level: ???
+icon: item icon - in format of {gpk name}.{icon name}
+rank: tier of the equipment
+maxStack: maximum number of items in one stack
+rareGrade : rarity, {0: common, 1: uncommon, 2: rare, 3: superior}
+requiredEquipmentType : equied gear type - 
+          {'EQUIP_ARMOR_BODY', 'NO_COMBAT', 'EQUIP_ARMOR_ARM', 'EQUIP_ARMOR_LEG', 'EQUIP_ACCESSORY', 'EQUIP_WEAPON'}
+combatItemType : {'EQUIP_ARMOR_BODY', 'RECOVERY_FATIGUE_POINT', 'CREST', 'MEGAPHONE', 'EnchantScroll', 'CHRONO_SCROLL', 'CHANGE_RACE', 'SYNTHESIZER', 'PREMIUM_RENAME', 'DUNGEON_COIN', 'EQUIP_ARMOR_LEG', 'LOOT_MOTION_ONLY', 'SKILLBOOK', 'TOKEN', 'BOOKMARK', 'QUEST', 'FloatingCastle_partsstore', 'DOCUMENT', 'EQUIP_UNDERWEAR', 'INC_CHARACTER_LEVEL', 'GAIN_EP_POINT', 'LOCKBOX_KEY', 'RESET_EP', 'GAIN_EP_EXP', 'UNBINDER', 'SERVANT_FEED', 'CUSTOM', 'SOCIALBOOK', 'CITY_WAR_GUILD_TOWER_TELEPORT', 'SHARED_INC_CHARACTER_SOCKET', 'PREMIUM_COMPOSE', 'INC_CHARACTER_SOCKET', 'LOCKBOX', 'EQUIP_STYLE_BACK', 'INC_INVEN_SLOT', 'MIX_DISPOSAL', 'EQUIP_INHERITANCE', 'CREST_POINT', 'IDENTIFY_SCROLL', 'RECIPE', 'CHANGE_GENDER', 'GUILD_TOWER', 'NO_COMBAT', 'TELEPORT_TO_VILLAGE', 'UNIDENTIFY_SCROLL', 'MEDAL_USEABLE', 'LEVEL_JUMPING_UP', 'RAWSTONE', 'IMMEDIATE', 'EQUIP_STYLE_BODY', 'INGAME_CHANGE_LOOKS', 'EQUIP_ACCESSORY', 'EQUIP_STYLE_ACCESSORY', 'RESET_SCROLL', 'ENCHANT_MATERIAL', 'INC_CHARACTER_EXP', 'SHARED_INC_STYLE_WAREHOUSE_PAGE', 'INC_WAREHOUSE_SLOT', 'RENAME_GUILD', 'INC_STYLE_WAREHOUSE_SLOT', 'CHANGE_LOOKS', 'DISPOSAL', 'GACHA', 'CHANGE_COLOR_ITEM', 'EQUIP_ARMOR_ARM', 'CHANGE_VOICE', 'DUNGEON_RESET_SCROLL', 'SHARED_INC_WAREHOUSE_PAGE', 'EQUIP_STYLE_WEAPON', 'BUILD_OBJECT_NOTICE', 'CHANGE_NAME', 'EQUIP_WEAPON', 'ENCHANTER', 'ENCHANT_COMPONENT_WEAPON'}
+equipSound: sound of equiping the item (probably reference to gpk)
+artisanable: if the source can be from crafting
+boundType : soulbind type
+buyPrice: Npc price in coppers
+changeColorEnable: can use dye
+changeLook: //its not used anymore, remodeling was removed
+coolTimeGroup: The group the item share the same cooldown
+destroyable:can be discarded?
+dropSilhouette: model when dropped on ground ??
+dropSound : sound  when dropped
+enchantEnable : can be enchanted
+extractLook: // used for remodeling
+guildWarehouseStorable : can be stored in guild bank
+masterpieceRate: masterwork chance with commons
+obtainable : //i have no idea//
+sellPrice : sell price in copper
+slotLimit : how many items you can have in your inventory
+sortingNumber: sort priority when sorting bank/inventory
+tradable: it is tradeable
+unidentifiedItemGrade : grade showed while not used identification scroll yet
+useOnlyTerriory: Civil unrest only ??
+warehouseStorable: can be storage in the bank
+usedSound: sounds made on use
+requiredUserStatus : Status the player need be incombat/not in combat
+requiredMaxLevel: max level you can use the item
+requiredLevel: level necessary to use the item
+requiredGuildLevel : //old guild system
+itemMixId: used for itemmidid
+dropIdentify: ??
+itemLevelGageOn : if there is ilvl gauge
+masterpieceBasicStatRevise: masterwork bonus options to roll
+requiredClass: classes that can use this item
+mediate: ??
+mediateCount : ??
+dropEffect: how is showed in the ground
+isReputation :       
+accessoryColorId: ??
+combatItemArg1: ??
+gambleItemGrade: ??
+conversionSmallGroup: ??
+gambleItemType: ??
+ridingUseable: usable while mounting
+periodInMinute: ??
+periodItemCategoryId: ??
+enchantEquipType: ??
+dropEffectOnlyWhenMine: ??
+isPvpEquipment: is pvp only
+preSetEnchant:??
+equipmentSetId: Id of the set this equipment is part
+awakenable: can be awaken
+unbindCount
+unbindEnchant: enchant number in order to liberate (15)
+onlyForPCBang: ??
+uniqueEquippedItem: can only equip one of this item, no duplicates
+optionResetDisable: ??
+unionVenderTradeable: ??
+requiredGender: gender necessary to use
+requiredRace : race that can use
+styleCostumeId: ??
+customizingString: ??
+combatItemArg3: ??
+combatItemArg4: ??
+
+   //Links
+   linkCrestId : id of the glyph
+   linkCustomizingId :  //i have no idea//
+   linkEquipmentId : id of the equipment
+   linkLookInfoId : id for lookinfo
+   linkPetAdultId
+   linkPerOrbidId
+   linkSkillId : skill (used for skillbooks)
+   linkMasterpiecePassivityId : passivity id when masterworked
+   linkPassivityId : passivity id for equipments
+   linkChangeColorListId
+   linkMasterpieceEnchantId how the stats are affect when enchant id when masterworked
+   linkMasterpiecePassivityCategoryId : category of the psssivity when masterworked
+   linkPassivityCategoryId : passivity category when not masterworked
+   linkSkillPeriodDay
+   linkRawStoneId
+   linkEnchangeId : how the stats are affect when enchant id
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+StrSheet_Item
+id: item identity
+toolTip: Tooltip text
+String: item Name
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemSellList
+//there is nothing here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemDecompositionData:
+//hammer was removed
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemExtractRecipe
+//extraction was removed from the game
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemFilterInfo
+//Information of items categories that are filtered for each option in the inventory
+ItemFilterInfo
+ItemFilterInfo.Filter
+ItemFilterInfo.Filter.id: id of the filter
+ItemFilterInfo.Filter.category: items category
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemMixData
+//information about item combinations
+itemMixId:Identity number
+successRate: rate of succes 0-1
+    Result:
+          successItemId:item you receive when succeded
+          successCount: quantity you receive when success
+          failedItemId: item you receive when failed
+          failedCount: quantity you receive when fail
+    Materials:
+          itemId: id of the item you need as material
+          count:quantity of this item
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemProduceRecipe:
+//crafting information
+
+Recipe
+Recipe.id : id of the recipe
+Recipe.grade : how much proficience you ( none, artisan, master)
+Recipe.categoryId : category of the recipe inside crafting
+Recipe.maxSkillProf : for how long you earn proficiency points
+Recipe.subFatiguePoint : how much pp cost
+Recipe.obtainable : //need check later//
+Recipe.needSkillId : skill necessary you need
+Recipe.recipeItemId : items id of the recipe
+Recipe.addOnSuccessProf : how many proficiency points you earn
+Recipe.needSkillProg : how many proficiency points you need
+Result
+Result.id : item id after the crafting
+Result.count : number of items you receive
+Result.criticalItemCount : id of item when crit
+Result.criticalItemId : number of items you receive
+Materials : list the materials necessary for the recipe
+Materials.Material
+Materials.Material.id : item id
+Materials.Material.count : quantity
+Materials.Material.enchant : enchant level  ( old steadfast > wonderholme gear)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemSorting
+//item sorting priority in the inventory
+Category
+Catergory.category : category of the item
+Category.priority : priority of the category, lower the number = higher priority
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ItemToolTip
+//
+
+This file show the properties about the correlation between names in database and in game tooltips
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

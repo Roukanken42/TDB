@@ -1,0 +1,65 @@
+Abnormality
+
+Abnormal:
+Abnormal.id : Id of the abnormality {number}
+Abnormal.bySkillCategory : ????
+Abnormal.infinity : if the duration is infinity, overwrite valued defined by time, usually used in events {true = no set duration, false = have a end}
+Abnormal.isBuff : if the abnormality is a buff {true= is a buff, flase = is not a buff}
+Abnormal.isShow : if the abnormality is showed for the user {true = is showed, flase = not showed}
+Abnormal.kind : used to define how the values are displayed in the ui, see StrSheet_AbnormalityKind {number -> id}
+Abnormal.level : level of the abnormality, usually applies for skill buffs like Mystic's Titanic Wrath or items with several levels {number}
+Abnormal.notCareDeath :if the abnormality still apply while dead {true = is still active , false = it doesnt take effect while dead}
+Abnormal.priority : //i have no idea//
+Abnormal.property :  { 1 = WeakeningEffect, 2 =  DamageOverTime, 3 = Stun = 3, 4 = Buff}
+Abnormal.time : the duration of the abnormality {time in ms}
+Abnormal.group : ???? {doping = if affect player stats , skill =if affect a skill, etc = other effects , [blank]=apply to npcs and sometimes players}
+Abnormal.isHideOnRaid : if is showed when the used is on a raid { true=yes, false=no}
+Abnormal.useDamageFont : abnomality that use this are unclear/not implemented in the effect need investigate
+Abnormal.isBlockOtherSpecialShader : just few ids have this, might only show to the playe, not showing for others
+Abnormal.AbnormalityEffect : THIS LIST THE DIFFERENT EFFECTS THAT EACH ABNORMALITY CAN HAVE
+Abnormal.AbnormalityEffect.type : type of the effect {number}
+Abnormal.AbnormalityEffect.value : value of the effect that is used by the type {number}
+Abnormal.AbnormalityEffect.tickInterval : time interval that is applied, used by over time abnormalities {time in ms}
+Abnormal.AbnormalityEffect.appearEffectId : Special effect id that takes place when the abnormality is applied
+Abnormal.AbnormalityEffect.effectPart : file used for the special effect
+Abnormal.AbnormalityEffect.overlayEffectId : id of the effect that affect the UI, change hp bar {number}
+Abnormal.AbnormalityEffect.ShaderOnAlly : // i have no idea //
+Abnormal.AbnormalityEffect.ShaderOnMy : // i have no idea //
+Abnormal.AbnormalityEffect.ShaderOnOther : // i have no idea //
+Abnormal.AbnormalityEffect.appearShader : // i have no idea //
+Abnormal.AbnormalityEffect.disappearShader : // i have no idea //
+Abnormal.AbnormalityEffect.effectTime : duration of the effect {time in ms}
+Abnormal.AbnormalityEffect.attackEffectId : // i have no idea //
+Abnormal.AbnormalityEffect.isEnemyCheck : //CS bomb?//
+Abnormal.AbnormalityEffect.arcaneFxId : effect for when gunner willpower is full
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Abnormality Icon Data
+
+Icon : each leave is one abnormality , the icons are usually found in TERA\Client\S1Game\CookedPC\Art_Data\Packages\S1UI
+Icon.abnormalityId : the id of the abnormality
+Icon.iconName : The name of the icon name for the abnormality
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+StrSheet_Abnomality
+
+String : one abnormality for one leaf
+String.id : the id of the abormality
+String.name : the name of the abnormality
+String.tooltip : the description of the abnormality
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+AbnormalityMarker
+
+Special case used for kuma battleground heal aura
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+StrSheet_AbnormalityKind
+
+This file is used to determinate how the numbers of the abnormality description will be showed
+
+String :
+String.id : id of the abonormality
+String.name : how is preseted
+

@@ -1,0 +1,32 @@
+patch 53:
+https://docs.google.com/spreadsheets/d/1pj1C5zV-ZCPdNv2B8O1om9a56nRHbHcwp6xwVAcTvm0/edit?usp=sharing 
+
+Passivity
+
+Passive : class and skill passives/gear rolls
+Passive.id : id
+Passive.prob : probability of the passive happen 0-1
+Passive.type : type of the passive
+Passive.value : value of the passive (sometimes returns a weird number? maybe is abnormality id)
+Passive.balancedByTargetCount : {true = ????, false = ????)
+Passive.judgmentOnce ://i have no idea//
+Passive.kind : 95% is used for crystals
+Passive.mobSize : {all,any,large,medium,small,player}
+Passive.method : //i have no idea//{1,2,3,4,5,6}
+Passive.tickInterval : time interval the passivity acts
+Passive.abnomalityCategory : category of the abnormality that the passivitiy affects
+Passive.abnormalityKind : kind of the abnormality that the passivitiy affects
+Passive.condition : condition that need be met so the passive acts
+Passive.conditionCategory : category of the conditions
+Passive.conditionValue : value of the condition
+Passive.passivityChangeId : id of the passivity that will become (used for epheral etheching)
+Passive.passivityChangeTime : how long the passive will last
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%,
+StrSheet_Passivity
+
+String :
+String.id : id
+String.name : passivity name
+String.tooltip : description of the passivity

@@ -1,0 +1,550 @@
+SkillData
+
+id : skill Identity number ("AABBCC : AA = Skill Number / BB = Skill Level / CC = Modifier")
+name : skill name (race_gender_class_lv_name)
+type : ???? {change,combo,combo_instance,dash,evade,instance,movingCharge,normal,notimeline,projectile,shootingmovingskill,stand,switch,userslug}
+category : skill catergory ("skillnumber,###,type,###,###,###,###")
+templateId : is the base structure to generate the skill
+nextSkill : skill id for the next skill in multihit skill, but user controlled, Eg. CloseQuarters
+timeRate : speed of the all time-actions of the skill. Eg.  timeRate=”1.5” means all times need be divided by 1.5
+attackRange : range of the attack
+attackRangeMax : ?????
+autoUse : ???? {true,false}
+changeDirToCenter : ?????{true,false}
+needWeapon : if need a weapon to be used {true,false}
+pushTarget : ??? {pass,push,stop}
+returnAnimSet : Animation file used by this skill ("Race_Gender_ANI.Anim_Race_Gender_Class_Anim")
+totalAtk : skill base damage is #value#
+parentId : id of the lvl 1 of this skill
+nocTanUse : Type of the effect that noctenium applies
+nocTanRate : value of the noctenium effect
+totalStk : Warrior Only : Number of egdes generated in PvE
+totalStkPvp : Warrior Only : Number of egdes generated in PvP
+changeDirection :  Rotate player by #value# degrees 
+useSkillwhileAirReaction :  {true = Can be used while Airbone, ?doesnt exist? = Can’t be used while Airbone }
+useSkillwhileBulldozer :  {true = Can be used while win Bullrush, ?doesnt exist? = Can’t be used while in Bullrush}
+useSkillwhileReaction : {true = Can be used while Knockdown, ?doesnt exist? = Can’t be used while Knockdown}
+connectNextSkill : Skill ID for the next skill in multipart skills. Eg:Snare Projectile cannot be stopped after casting the first part
+keepMovingCharge : true = Can move while charging a skill, ?doesnt exist? = Can’t move while charging a skill
+
+Property : ????
+Property.weaponStatus : {out = Show weapon, in = Don't show weapon}
+Property.defence : {true,false}
+Property.reactionPendingType : {normal}
+Property.skillPendingType : {normal}
+Property.cancelPressPendingTime : Brawler : smash attack
+Property.skillPendingTypeForAutoUse : Brawler : smash attack
+Property.useStGaugeFullToggle : {true = Use Special Resource (eg.:ninja/chi), ?doesnt exist? = Doesnt use Special Resource}
+Property.stuckTimeAfterUseSkill : Ninja: {1 = ???????, empty = ??????}
+Property.noCorrectLocation : Brawler : DragonRisingBlow only 
+Property.Direction : ????
+Property.Direction.toCenterWhenNoMove : ????
+
+Bullet : Buller information
+Bullet.shotSkill : id of the shot
+Bullet.createTime : time the bullet start
+Bullet.detachTime : ????
+Bullet.flyingDuration : Time to bullet hit max distance (1000 is the value for skills without bullets
+Bullet.startSkill : Id of the skill that start the bullet
+Bullet.projectileHit : {true = Can explode mid fligh, false = Cant explode midflight}
+Bullet.beamEffect : Lancer leash: Create a beam that mark the projectile path
+Bullet.flyingBackDuration : Lancer leash: Time to push the target back
+
+Action : ????
+Action.specialEffectList : ????
+Action.MoveInvicible : IFRAME INFORMATION
+Action.MoveInvicible.endTime : time when the iframe ends
+Action.MoveInvicible.startTime : time when the iframe starts
+Action.Pending : ??cd start???
+Action.Pending.startTime ??when the cd start counting??
+Action.StageList : ????
+Action.StageList.Stage : ????
+Action.StageList.Stage.scriptId : ????
+Action.StageList.Stage.changeDirToTarget : ????
+Action.StageList.Stage.changeDirToTargetMax : ????
+Action.StageList.Stage.movable : ????
+Action.StageList.Stage.Property : ????
+Action.StageList.Stage.Property.animControlType : ????
+Action.StageList.Stage.Property.adjustAnimToTarget : ????
+Action.StageList.Stage.Property.LockOn : LOCKON INFORMATION
+Action.StageList.Stage.Property.LockOn.effectId : id of the visual effect that happens
+Action.StageList.Stage.Property.LockOn.msgId : id of the messange showed while locking targets
+Action.StageList.Stage.Property.LockOn.lauchByMaxTarget : {true = auto shot when it is is on max capacity, false = doesnt auto shot}
+Action.StageList.Stage.Property.movingCast : ????
+Action.StageList.Stage.Property.movingShot : ????
+Action.StageList.Stage.AnimSeq : ????
+Action.StageList.Stage.AnimSeq.duration : duration of the animation sequence
+Action.StageList.Stage.AnimSeq.animSet : file used in the animaiton
+Action.StageList.Stage.AnimSeq.animName : animation used inside the animation file
+Action.StageList.Stage.AnimSeq.AnimRate : animation time rate 
+Action.StageList.Stage.AnimSeq.blendInTime : ????
+Action.StageList.Stage.AnimSeq.animMotionId : ????
+Action.StageList.Stage.AnimSeq.bAnimLooping : ????
+Action.StageList.Stage.AnimSeq.loopingRate : ????
+Action.StageList.Stage.AnimSeq.rootMotionXYRate : ????
+Action.StageList.Stage.AnimSeq.rootMotionZRate : ????
+Action.StageList.Stage.AnimSeq.movingAnimName : ????
+Action.CameraShakeList : CAMERA SHAKE
+Action.CameraShakeList.CameraShake : INFORMATION ABOUT CAMERA SHAKE
+Action.CameraShakeList.CameraShake.duration : duration of the shake
+Action.CameraShakeList.CameraShake.targetType : target that will suffer the shake
+Action.CameraShakeList.CameraShake.startTime : time that the shake start
+Action.CameraShakeList.CameraShake.power : ????
+Action.CameraShakeList.CameraShake.innerRadius : ????
+Action.CameraShakeList.CameraShake.outerRadius : ????
+Action.CameraShakeList.CameraShake.speed : ????
+Action.CameraShakeList.CameraShake.startValue : ????
+Action.CameraShakeList.CameraShake.shakeId : id of the shake
+Action.CameraShakeList.CameraShake.startCondition : when the shake time start counting
+Action.CameraType : ????
+Action.CameraType.duration : ????
+Action.CameraType.type : ????
+Action.CameraType.startTime : ????
+Action.CameraType.weight : ????
+Action.CameraType.startStageId : ????
+Action.Cancel : INFORMATION WHEN THE SKILL CAN BE CANCELLED
+Action.Cancel.frontCancelEndTime : ????
+Action.Cancel.moveCancelStartTime : ????
+Action.Cancel.rearCancelStartTime : ????
+Action.CameraZoom : ????
+Action.CameraZoom.duration : ????
+Action.CameraZoom.startTime : ????
+Action.CameraZoom.zoomExp : ????
+Action.CameraZoom.stopOnActionEnd : ????
+Action.CameraZoom.zoom.Distance : ????
+
+TargetingList :  INFORMATION ABOUT TARGET DETECTION
+TargetingList.adjustTargetingPos {notUse}
+TargetingList.useRawTarget : ????
+TargetingList.Targeting : USED TO SEPARATE MULTIPLE SKILL HITS
+TargetingList.Targeting.id : identification number
+TargetingList.Targeting.type : {real_forward,none}
+TargetingList.Targeting.time : ????
+TargetingList.Targeting.method : ????
+TargetingList.Targeting.endTime : ????
+TargetingList.Targeting.startTIme : ????
+TargetingList.Targeting.interval : ????
+TargetingList.Targeting.until : ????
+TargetingList.Targeting.AreaList : INFORMATION ABOUT THE AREAS USED IN THE SKILL HITBOX
+TargetingList.Targeting.AreaList.Area : ????
+TargetingList.Targeting.AreaList.Area.rotateAngle : ????
+TargetingList.Targeting.AreaList.Area.type : ????
+TargetingList.Targeting.AreaList.Area.maxHeight : ????
+TargetingList.Targeting.AreaList.Area.maxCount : max number of target that can be effect by this skill in the area
+TargetingList.Targeting.AreaList.Area.maxRadius : ????
+TargetingList.Targeting.AreaList.Area.offsetDistance : ????
+TargetingList.Targeting.AreaList.Area.pierceDepth : max number of targets that can be effected by this skill in a line (projectiles/bullers)
+TargetingList.Targeting.AreaList.Area.minHeight : ????
+TargetingList.Targeting.AreaList.Area.rangeAngle : ????
+TargetingList.Targeting.AreaList.Area.crosshairRadius : ????
+TargetingList.Targeting.AreaList.Area.minRadius : ????
+TargetingList.Targeting.AreaList.Area.offsetAngle : ????
+TargetingList.Targeting.AreaList.Area.crosshairRadius2 : ????
+TargetingList.Targeting.AreaList.Area.Effect : ????
+TargetingList.Targeting.AreaList.Area.Effect.atk : how much of the the base damage is done by this part of target
+TargetingList.Targeting.AreaList.Area.Effect.HpDiff : ????
+TargetingList.Targeting.AreaList.Area.Effect.HpDiff.value : ????
+TargetingList.Targeting.AreaList.Area.Effect.MpDiff : ????
+TargetingList.Targeting.AreaList.Area.Effect.MpDiff.value : ????
+TargetingList.Targeting.AreaList.Area.Effect.AbnormalityOnCommon : ????
+TargetingList.Targeting.AreaList.Area.Effect.AbnormalityOnCommon.id : ????
+TargetingList.Targeting.AreaList.Area.Effect.AbnormalityOnPvp : ????
+TargetingList.Targeting.AreaList.Area.Effect.AbnormalityOnPvp.id : ????
+TargetingList.Targeting.AreaList.Area.Effect.Teleport : USED FOR RACIAL SKILL THAT TELEPORT YOU TO AT CITY
+TargetingList.Targeting.AreaList.Area.Effect.Teleport.type : ????
+TargetingList.Targeting.AreaList.Area.Effect.Teleport.recallContinent : number of the continent you return {1= south arun , 2 = south shara, 3 = nort shara}
+TargetingList.Targeting.AreaList.Area.Effect.Teleport.recallPos : coordinates you return
+TargetingList.Targeting.AreaList.Area.Reaction : ????
+TargetingList.Targeting.AreaList.Area.Reaction.basicRate : ????
+TargetingList.Targeting.AreaList.Area.Reaction.minRate : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.distance : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.firstDistance : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.downAccel : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.firstDownAccel : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.firstUpAccel : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.firstUpDistance : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.firstupVelocity : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.upAccel : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.upDistance : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.upVelocity : ????
+TargetingList.Targeting.AreaList.Area.Reaction.airReaction.downVelocity : ????
+TargetingList.Targeting.AreaList.Area.Reaction.DynamicReaction : ????
+TargetingList.Targeting.AreaList.Area.Reaction.DynamicReaction.reactionAccel : ????
+TargetingList.Targeting.AreaList.Area.Reaction.DynamicReaction.reactionEndSpeed : ????
+TargetingList.Targeting.AreaList.Area.Reaction.DynamicReaction.reactionSpeed : ????
+TargetingList.Targeting.AreaList.Area.Reaction.DynamicReaction.useInterpolation : ????
+TargetingList.Targeting.AreaList.Area.HitEffect : ????
+TargetingList.Targeting.AreaList.Area.Hiteffect.type = {animationDamate,nothing}
+TargetingList.Targeting.AreaList.Cost : ????
+TargetingList.Targeting.AreaList.Cost.hp : ????
+TargetingList.Targeting.AreaList.Cost.mp : ????
+TargetingList.Targeting.AreaList.Cost.st : ????
+TargetingList.Targeting.AreaList.Cost.stRate : ????
+TargetingList.Targeting.AreaList.ProjectileSkillList
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill : INFORMATION ABOUT THE PROJECTILE
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.id : id of the projectile
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.detachDistance : ????
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.detachHeight : ????
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.flyingSpeed : ????
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.ignoreGeo : ????
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.shootAngle : ????
+TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.shootFoward : ????
+
+Defence : BLOCK INFORMATION
+Defence.rootMotion : ????
+Defence.allDirection : ????
+Defence.succesAnimName :  Animation that is done when you success
+Defence.superArmor : Brawler : ??skill that can block during growing fury??
+
+ShortTel
+ShortTel.dist
+
+Drain
+Drain.backSkillId.
+
+ConnectSkill :  INFORMATION ABOUT THE NEXT SKILL TO BE USED
+ConnectSkill.redirectSkill : id
+ConnectSkill.AddAbnormalityConnectSkill : ????
+ConnectSkill.AddAbnormalityConnectSkill.abnormalityId : abnormality id that is used to show the next skill
+ConnectSkill.AddAbnormalityConnectSkill.redirectSkill : id of the skill tha twill be use
+ConnectSkill.AddConectSkill : ????
+ConnectSkill.AddConectSkill.redirectSkill : ????
+
+KeyState : ????
+KeyState.State : ????
+KeyState.State.skillId : ????
+KeyState.State.left : ????
+KeyState.State.right : ????
+KeyState.State.backward : ????
+KeyState.State.foward : ????
+KeyState.State.onlyActive : ????
+
+Precondition : ????
+Precondition.coolTime : ????
+Precondition.modeChangeMethod : ????
+Precondition.modNo : ????
+Precondition.Cost : ????
+Precondition.Cost.hp : ????
+Precondition.Cost.mp : ????
+Precondition.Cost.stRate : ????
+Precondition.Cost.st : ????
+Precondition.Cost.itemList : ????
+Precondition.exclusiveAbnormality : ????
+
+Projectile : LOOK TARGETING
+Projectile.lifeTime : ????
+Projectile.areaBoxSizeX : ????
+Projectile.areaBoxSizeY : ????
+Projectile.areaBoxSizeZ : ????
+Projectile.hideFromEnemy : ????
+Projectile.instanceShotHit : ????
+Projectile.TargetingList : ????
+Projectile.TargetingList.Targeting : ????
+Projectile.TargetingList.Targeting.type : ????
+Projectile.TargetingList.Targeting.AreaList : ????
+Projectile.TargetingList.Targeting.AreaList.Area : ????
+Projectile.TargetingList.Targeting.AreaList.Area.maxCount : ????
+Projectile.TargetingList.Targeting.AreaList.Area.rotateAngle : ????
+Projectile.TargetingList.Targeting.AreaList.Area.maxRadius : ????
+Projectile.TargetingList.Targeting.AreaList.Area.offsetDistance : ????
+Projectile.TargetingList.Targeting.AreaList.Area.pierceDepth : ????
+Projectile.TargetingList.Targeting.AreaList.Area.rangeAngle : ????
+Projectile.TargetingList.Targeting.AreaList.Area.offsetAngle : ????
+Projectile.TargetingList.Targeting.AreaList.Effect : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.atk : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.HpDiff : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.HpDiff.value : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.MpDiff : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.MpDiff.value : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.AbnormalityOnCommon : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.AbnormalityOnCommon.id : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.AbnormalityOnPvp : ????
+Projectile.TargetingList.Targeting.AreaList.Effect.AbnormalityOnPvp.id : ????
+Projectile.TargetingList.Targeting.AreaList.ProjectileSkillList : ????
+Projectile.TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill : ????
+Projectile.TargetingList.Targeting.AreaList.ProjectileSkillList.ProjectileSkill.id : ????
+
+AttackAnimRate : ??BRAWLER??
+AttackAnimRate.minimunInterval : ????
+AttackAnimRate.Fast : ????
+AttackAnimRate.Fast.downTime : ????
+AttackAnimRate.Fast.upTime : ????
+AttackAnimRate.Slow : ????
+AttackAnimRate.Slow.uptTime : ????
+AttackAnimRate.Slow.slowDownTime : ????
+
+WeaponIk : ????
+WeaponIk.type : ????
+WeaponIk.endTime : ????
+WeaponIk.startTime : ????
+
+Counter : ??REAPER/ZERK/BRAWLER??
+
+ChargingStageList : INFORMATION ABOUT CHARGING SKILL
+ChargingStageList.movable : {true= can move during charging, false= cant move during charging?
+ChargingStageList.movingAnimName: animation used while moving
+ChargingStageList.waitAnimName : animation used while standing still
+ChargingStageList.costTotalHp : total hp cost of the charging
+ChargingStageList.costTotalMp : total mp cost of the charging
+ChargingStageList.ChargeStage : INFORMATION ABOUT CHARGING STAGES
+ChargingStageList.ChargeStage.duration : duration of the stage
+ChargingStageList.ChargeStage.costHpRate : ratio of the total hp cost
+ChargingStageList.ChargeStage.costMpRate : ratio of the total mop
+ChargingStageList.ChargeStage.skillId : id of the skill that will be used when finishing charging
+ChargingStageList.Interval : INFORMATION ABOUT OVERCHARGING
+ChargingStageList.Interval.time :interval between each overcharge
+ChargingStageList.Interval.costHpRate : ratio of the total hp cost
+ChargingStageList.Interval.costMpRate : ratio of the total mp cost
+
+InverseCapture : REAPER SOUL REVERSAL
+InverseCapture.holdTime : ????
+InverseCapture.holdingAnim : ????
+InverseCapture.movingDuration : ????
+InverseCapture.succesAnim : ????
+InverseCapture.withdrawAnim : ????
+
+Bulldozer : BRAWLER BULLRUSH
+Bulldozer.duration : ????
+Bulldozer.zeroTime : ????
+Bulldozer.slowDownTime : ????
+
+Pulling : LANCER LEASH
+Pulling.attackBone : ????
+Pulling.maxHeight : ????
+Pulling.resource : ????
+Pulling.maxHeightRate : ????
+Pulling.pullEffectTime : ????
+Pulling.throwEffectTime : ????
+Pulling.weightFactor : ????
+
+Dash : INFORMATION ABOUT DASH SKILLS
+Dash.speed = speed of the speed units/s
+Dash.dashRedirectSkill : ????
+Dash.followTarget : {true = follow the target, false = dont follow the target}
+Dash.mustHaveTarget : {true = need a target , false = dont need a target}
+
+UseProjectileCurveMode : ????
+UseProjectileCurveMode.ControllerPointHeightOffsetA : ????
+UseProjectileCurveMode.ControllerPointHeightOffsetB : ????
+UseProjectileCurveMode.ControllerPointLocRateA : ????
+UseProjectileCurveMode.ControllerPointLocRateB : ????
+
+AutoContinue : ??NINJA??
+AutoContinue.skillId : ????
+AutoContinue.useOnSuccess : ????
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillEffectData
+
+class
+team
+SkillEffect
+SkillEffect.skillId
+SkillEffect.templateId
+SkillEffect.isNoRemoeActionEnd
+SkillEffect.Normal
+SkillEffect.Normal.id
+SkillEffect.Normal.scale
+SkillEffect.Normal.bGriund
+SkillEffect.Normal.boneName
+SkillEffect.Normal.deatch
+SkillEffect.Normal.playRate
+SkillEffect.Normal.posX
+SkillEffect.Normal.posY
+SkillEffect.Normal.posZ
+SkillEffect.Normal.rescaleMethod
+SkillEffect.Normal.resource
+SkillEffect.Normal.rotX
+SkillEffect.Normal.rotY
+SkillEffect.Normal.rotZ
+SkillEffect.Normal.scaleX
+SkillEffect.Normal.scaleY
+SkillEffect.Normal.scaleZ
+SkillEffect.Normal.startTime
+SkillEffect.Normal.subBoneName
+SkillEffect.Normal.subBoneName2
+SkillEffect.Normal.absoluteRate
+SkillEffect.Normal.bChangeAbleScaleByRange
+SkillEffect.Normal.stageIndex
+SkillEffect.Projectile
+SkillEffect.Projectile.disappearEffectId
+SkillEffect.Projectile.startBone
+SkillEffect.Projectile.explodeEffectId
+SkillEffect.Projectile.flyingEffectOnly
+SkillEffect.Projectile.movingEffect
+SkillEffect.Projectile.StateEffect
+SkillEffect.Projectile.StateEffect.enemyEffectId
+SkillEffect.ChargeList
+SkillEffect.ChargeList.Charge
+SkillEffect.ChargeList.Charge.scale
+SkillEffect.ChargeList.Charge.bground
+SkillEffect.ChargeList.Charge.boneName
+SkillEffect.ChargeList.Charge.deatch
+SkillEffect.ChargeList.Charge.playRate
+SkillEffect.ChargeList.Charge.posX
+SkillEffect.ChargeList.Charge.posY
+SkillEffect.ChargeList.Charge.posZ
+SkillEffect.ChargeList.Charge.rescaleMethod
+SkillEffect.ChargeList.Charge.resource
+SkillEffect.ChargeList.Charge.rotX
+SkillEffect.ChargeList.Charge.rotY
+SkillEffect.ChargeList.Charge.rotZ
+SkillEffect.ChargeList.Charge.scaleX
+SkillEffect.ChargeList.Charge.scaleY
+SkillEffect.ChargeList.Charge.scaleZ
+SkillEffect.ChargeList.Charge.stage
+SkillEffect.HitEffectList
+SkillEffect.HitEffectList.HitEffect
+SkillEffect.HitEffectList.HitEffect.id
+SkillEffect.HitEffectList.HitEffect.deatch
+SkillEffect.HitEffectList.HitEffect.direction
+SkillEffect.HitEffectList.HitEffect.criticalHitBlend
+SkillEffect.HitEffectList.HitEffect.criticalHitId
+SkillEffect.HitEffectList.HitEffect.areaIndex
+SkillEffect.HitEffectList.HitEffect.magneticEffectId
+SkillEffect.HitEffectList.HitEffect.targetingIndex
+SkillEffect.LockOn
+SkillEffect.LockOn.magneticEffecId
+SkillEffect.Defence
+SkillEffect.Defence.detach
+SkillEffect.Defence.succesEffectId
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillGetConList // information about how you learn the skills
+
+SkillList
+SkillList.class
+SkillList.skillId
+SkillList.level
+SkillList.gender
+SkillList.race
+SkillList.cost
+SkillList.isActive
+SkillList.learnType
+SkillList.prerequisiteActiveSkills
+SkillList.prerequisitePassiveSkill
+SkillList.prevSkillId
+SkillList.prevSkillOverride
+SkillList.isPkServerOnly
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillIconData
+
+Icon
+Icon.class
+Icon.skillId
+Icon.iconName
+Icon.toolTip
+Icon.gender
+Icon.race
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillPeriod
+
+Skill
+Skill.Id
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillSoundData
+
+SkillSound
+SkillSound.skillId
+SkillSound.templateId
+SkillSound.Sound
+SkillSound.Sound.time
+SkillSound.Sound.radius
+SkillSound.Sound.soundcure
+SkillSound.Sound.volume
+SkillSound.Sound.stageIndex
+SkillSound.Sound.HitSoundList
+SkillSound.Sound.HitSoundList.HitSound
+SkillSound.Sound.HitSoundList.HitSound.soundcue
+SkillSound.Sound.HitSoundList.HitSound.isplayArmorSound
+SkillSound.Sound.HitSoundList.HitSound.areaIndex
+SkillSound.Sound.HitSoundList.HitSound.targetingIndex
+SkillSound.Sound.ChargeSoundList
+SkillSound.Sound.ChargeSoundList.ChargeSound
+SkillSound.Sound.ChargeSoundList.ChargeSound.radius
+SkillSound.Sound.ChargeSoundList.ChargeSound.soundcue
+SkillSound.Sound.ChargeSoundList.ChargeSound.volume
+SkillSound.Sound.ChargeSoundList.ChargeSound.stage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+StrSheet_UserSkill
+
+String
+String.id
+String.name
+String.class
+String.tooltip
+String.gender
+String.race
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillHotKeyData
+
+Common
+Common.duration
+Common.startTime
+Common.delay
+Hotkey
+Hotkey.class
+Hotkey.customNextCategoryId
+Hotkey.Abnormal
+Hotkey.Abnormal.id
+Hotkey.Abnormal.pririty
+Hotkey.Abnormal.nextSkillCategoryId
+Hotkey.Abnormal.dontShowDutingCooltime
+Hotkey.Abnormal.onlyCombateState
+Hotkey.Reaction
+Hotkey.Reaction.id
+Hotkey.Reaction.nextSkillCategoryId
+Hotkey.Reaction.onlyCombatState
+Hotkey.Reaction.priority
+Hotkey.Reaction.dontShowDuringCooltime
+Hotkey.Bulldozer
+Hotkey.Bulldozer.priority
+Hotkey.Bulldozer.dotnShowDuringCooltime
+Hotkey.Bulldozer.nextSkillCategoryId
+Hotkey.Bulldozer.onlyCombatState
+Hotkey.Bulldozer.forStandUp
+Hotkey.AirReaction
+Hotkey.AirReaction.priority
+Hotkey.AirReaction.dontShowDuringCooltime
+Hotkey.AirReaction.nextSkillCategoryId
+Hotkey.AirReaction.onlyCombatState
+Hotkey.AirReaction.forStandUp
+Hotkey.Connect
+Hotkey.Connect.nextSkillCategoryId
+Hotkey.Connect.startSkillCategoryId
+Hotkey.Connect.dealy
+Hotkey.Connect.dontShowDuringCooltime
+Hotkey.Connect.onlyCombatState
+Hotkey.Connect.priority
+Hotkey.Connect.activeCondition
+Hotkey.Continue
+Hotkey.Continue.nextSkillCategoryId
+Hotkey.Continue.onlyCombatState
+Hotkey.Continue.startSkillCategoryIdd
+Hotkey.Continue.userCustom
+Hotkey.Continue.priority
+Hotkey.Continue.startTime
+Hotkey.Continue.duration
+Hotkey.Continue.dontShowDuringCooltime
+Hotkey.Defence
+Hotkey.Defence.duration
+Hotkey.Defence.priority
+Hotkey.Defence.nextSkillCategoryId
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SkillToolTipChain
+
+Tooltip
+Tooltip.class
+Tooltip.Chain
+Tooltip.Chain.skillCategoryId
+Tooltip.Chain.nextSkillCategoryId
+
