@@ -1,112 +1,111 @@
-Id;what
-1;Max hp
-2;Max Mp
-3;Power
-4;Endurance
-5;Movement Speed
-6;Crit factor
-7;Crit Resisrt
-8;Impact
-9;Balance Factor
-10;Weaking Effects enemy
-11;Periodic Damage enemy
-12;Stun duration enemy
-14;Resist Weakening
-15;Resist Periodic
-16;Resist Stun
-17;@@@@
-18;Speed Boost
-19;Crit Damage
-20;Less Agroo
-21;MP Replenish
-25;Attack Speed
-26;@@@@
-51;HP/5sec
-52;MP/5sec
-61;Delete Shield Counter
-64;Increase Gathering (necklace)
-65;Gathering Speed (method define which)
-67;All Gathering Speed
-71;Glyph - Decrease CD
-72;Glyph - Decrease mana usage
-73;Time-Lost Techniques
-74;Increase Knockdown Resist
-75;Time-Lost Techniques
-76;Skill Reset - Gunner
-77;Time-Lost Techniques
-82;Decrease resolve cost
-102;Damage Reduction
-103;KD Reduction
-105;Crit Chance Resist
-106;Give a Shield
-107;Chance to Bleed
-109;Blocked damage
-110;Increase Healing
-111;Crit damage reduction
-113;Pvp Dmg reduction
-152;Damage Increase
-153;Time-Lost Techniques
-154;Time-Lost Techniques
-155;Crit Chance Increase
-156;Weapon Passives
-157;Time-Lost Techniques
-158;Vampiric Whipsaw
-159;Glyph - MP regen
-161;Glyph - Skill Damage
-162;Time-Lost Techniques
-163;Glyph - Increase Duration
-164;Increase Agroo
-165;Increases Healing
-166;Time-Lost Techniques
-167;Increase Crit Power
-168;Recover Hp
-169;Increases Healing
-170;Time-Lost Techniques
-171;Time-Lost Techniques
-172;Time-Lost Techniques
-173;Time-Lost Techniques
-174;Time-Lost Techniques
-176;Pvp Dmg
-177;Time-Lost Techniques
-183;Regen ST
-184;Enhanced Thunder Strike I
-185;Gun Enthusiast
-193;Rune Carving
-194;Compensate Crit Power of Valkyrie
-201;@@@@
-203;Refelct Damage
-204;Crafting Speed
-206;Resilience of Body / Mind
-207;Change to Regen when combat start
-208;Merciless Brawler
-209;Replenish MP on Titanic Wrath Hit
-210;Time-Lost Techniques
-211;Time-Lost Techniques
-212;Time-Lost Techniques
-213;Replenish more MP w/ Combo Hit
-215;Time-Lost Techniques
-216;Time-Lost Techniques
-217;Time-Lost Techniques
-218;Time-Lost Techniques
-219;Time-Lost Techniques
-220;Increase Charging Speed of Mana Charge
-221;Time-Lost Techniques
-222;Time-Lost Techniques
-223;Light Landing
-224;Mount Passive
-225;@@@@
-226;Heal hp on skill hit
-227;Time-Lost Techniques
-228;@@@@
-229;Skills passives
-231;Time-Lost Techniques
-232;Replinish MP on skill use
-242;2 lifes passives
-249;Tithus's Prestige
-251;Phoenix Aura
-501;Guild Tower Enhancement
-502;Guild Bank Expansion
-503;Guild Expansion
-;
-;
-
+Id,what
+1,Max hp
+2,Max Mp
+3,Power
+4,Endurance
+5,Movement Speed
+6,Crit factor
+7,Crit Resisrt
+8,Impact
+9,Balance Factor
+10,Weaking Effects enemy
+11,Periodic Damage enemy
+12,Stun duration enemy
+14,Resist Weakening
+15,Resist Periodic
+16,Resist Stun
+17,@@@@
+18,Speed Boost
+19,Crit Damage
+20,Less Agroo
+21,MP Replenish
+25,Attack Speed
+26,@@@@
+51,HP/5sec
+52,MP/5sec
+61,Delete Shield Counter
+64,Increase Gathering (necklace)
+65,Gathering Speed (method define which)
+67,All Gathering Speed
+71,Glyph - Decrease CD
+72,Glyph - Decrease mana usage
+73,Time-Lost Techniques
+74,Increase Knockdown Resist
+75,Time-Lost Techniques
+76,Skill Reset - Gunner
+77,Time-Lost Techniques
+82,Decrease resolve cost
+102,Damage Reduction
+103,KD Reduction
+105,Crit Chance Resist
+106,Give a Shield
+107,Chance to Bleed
+109,Blocked damage
+110,Increase Healing
+111,Crit damage reduction
+113,Pvp Dmg reduction
+152,Damage Increase
+153,Time-Lost Techniques
+154,Time-Lost Techniques
+155,Crit Chance Increase
+156,Weapon Passives
+157,Time-Lost Techniques
+158,Vampiric Whipsaw
+159,Glyph - MP regen
+161,Glyph - Skill Damage
+162,Time-Lost Techniques
+163,Glyph - Increase Duration
+164,Increase Agroo
+165,Increases Healing
+166,Time-Lost Techniques
+167,Increase Crit Power
+168,Recover Hp
+169,Increases Healing
+170,Time-Lost Techniques
+171,Time-Lost Techniques
+172,Time-Lost Techniques
+173,Time-Lost Techniques
+174,Time-Lost Techniques
+176,Pvp Dmg
+177,Time-Lost Techniques
+183,Regen ST
+184,Enhanced Thunder Strike I
+185,Gun Enthusiast
+193,Rune Carving
+194,Compensate Crit Power of Valkyrie
+201,@@@@
+203,Refelct Damage
+204,Crafting Speed
+206,Resilience of Body / Mind
+207,Change to Regen when combat start
+208,Merciless Brawler
+209,Replenish MP on Titanic Wrath Hit
+210,Time-Lost Techniques
+211,Time-Lost Techniques
+212,Time-Lost Techniques
+213,Replenish more MP w/ Combo Hit
+215,Time-Lost Techniques
+216,Time-Lost Techniques
+217,Time-Lost Techniques
+218,Time-Lost Techniques
+219,Time-Lost Techniques
+220,Increase Charging Speed of Mana Charge
+221,Time-Lost Techniques
+222,Time-Lost Techniques
+223,Light Landing
+224,Mount Passive
+225,@@@@
+226,Heal hp on skill hit
+227,Time-Lost Techniques
+228,@@@@
+229,Skills passives
+231,Time-Lost Techniques
+232,Replinish MP on skill use
+242,2 lifes passives
+249,Tithus's Prestige
+251,Phoenix Aura
+501,Guild Tower Enhancement
+502,Guild Bank Expansion
+503,Guild Expansion
+,
+,
