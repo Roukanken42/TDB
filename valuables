@@ -1,0 +1,83 @@
+11010 - 11030 -  Warrior
+12010 - 12030 - Lancer
+13010 - 13030 - Slayer
+      13020 - Slayer KS - value of 0.67 - type 229 - damage
+      13030 - Slayer WW - value of 0.67 - type 229 - damage
+14010 - 14080 - Berserker
+      14020 - Berserker Amok - value of 3 - type 152 - condition 30
+      14030 - Opportunity Knocks - value of 1.5 - type 152 - condition 29
+      14040 - berserker opportunity knocs - value 0.67 - type 229 - damage
+      14050 - berserker cyclone front crit factor - value of 1.3 - type 155 - condition 24
+      14060 - berserker cyclone front crit power - value of 1.59 - type 167 - condition 24
+      14071 - berserker ts crit 1 - value 4061601??? - type 184 - condition 25
+      14072 - berserker ts crit 2 - value 4061602??? - type 184 - condition 25
+15010 - 15030 - Sorcerer
+      15010 - sorc meteor strike damage - value of 0.67 - type 229
+      15020 - sorc flame pillar damage - value of 0.67 - type 229
+      15020 - sorc attack speed - value of 1.3 - type25
+16010 - 16020 - Archer
+      16020 - Archer Crackshot - value of 0.1 - type 155
+      16010 - Opportunity Knocks - value of 1.5 - type 152 - condition 29
+19100 - 19602 - Race Passives
+
+80010-81013 - CRYSTAL INFORMATION
+
+90001 - 90005 - Reaper Passives
+      90003 - reaper whipsaw hp - value of 1.015 - type 158
+91001 - 91018 - Gunner Passives
+92001 - 92012 - Brawler Passives
+      92006 - increase crit power by 0.4 - value of 1.2 - type 167
+93001 - 93008 - Ninja Passives
+
+
+120100 - 120586 - LANCER BLOCK
+130100 - 130586 - BRAWKER BLOCK
+140100 - 140586 - ZERK BLOCK
+150100 - 150586 - WARRIOR BLOCK
+
+170100 - 180589 - RECOVERS HP
+190400 - 190782 - RAISES MAX HP
+190800 - 192783 - RAISES MAX MP
+200000 - 200010 - BELT HP
+210100 - 212508 - INCREASE MP REPLENISHMENT
+
+213000 - 240100 - random buffs
+310200 - 312202 - gear rolls
+313000 - 313709 - chest rolls
+
+317100 - 317288 - weapon effects (aka VM proc- not crafted)
+
+320100 - 329210 - necklace rolls ??
+330010 - 333050 - ring rolls
+340100 - 345080 - earing rolls
+
+350000 - 360011 - chest rolls AGAIN????
+410000 - 410125 - weapon rolls
+420000 - 425300 - armor rolls
+430000 - 435020 - necklace rolls
+440000 - 440060 - ring rolls
+445000 - 455070 - earing rolls
+
+465000 - 465601 - randon accesory
+470001 - 470008 - circlet rolls
+
+510000 - 527061 - fixed gear rolls
+530000 - 555603 - fixed jewerly rolls
+
+560000 - 565329 - ???
+570000 - 570271 - set bonus
+
+1213000 - 1221300 - ???
+1310200 - 1313900 - old weapon rolls
+1320100 - 1326100 - old armor rolls
+1410000 - 1524570 - rolls of masterwork items
+2310200 - 2326204 - ???
+3000001 - 3000458 - pvp stats in gear
+3100000 - 3100080 - hidden stats in lucid gear
+
+4000001 - 4010263 - etchings values
+
+4100000 - 4180009 - options test ???
+6000001 - 6000009 - achievements passives
+
+8885001 - 8886104 - guild passives
