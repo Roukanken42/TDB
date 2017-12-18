@@ -1,0 +1,472 @@
+
+//FOLDERS
+
+Abnormality = 
+AbnormalityIconData = 
+Accessory = 
+AchievementList = All information about achievements
+AnimEffectData = 
+AnimSoundData = 
+Area = 
+BasicActionData = 
+ClimbingTerritory = 
+Dungeon = 
+DungeonRank = 
+DynamicGeoData = 
+EnvCaseEffectData = 
+EquipmentLookInfoData = 
+Gacha = Information about in game lootboxes
+ItemConversion = 
+ItemData = Information about items
+ItemSellList = 
+MapDefineData = 
+MatParamData = 
+MenuList = 
+MovieScript = 
+NpcData = Information about npc/monsters/enemys
+NpcShape = 
+NpcSoundData = 
+Passivity = 
+PegasusPaths = 
+PremiumComposeGroup = some information about some specifc lootboxes
+Quest = Information about quests
+QuestDialog = 
+ReactionData = 
+ReactionEffectData = 
+S1ActionScripts = 
+SkillData = Information about skills
+SkillEffectData = 
+SkillGetConList = 
+SkillIconData = 
+SkillPeriod = 
+SkillSoundData = 
+SocialData = 
+StrSheet_Abnormality = Strings of tooltip and name of the abnormality
+StrSheet_Achievement =  = Strings of tooltip and name of the achievements
+StrSheet_Creature = 
+StrSheet_Dungeon = 
+StrSheet_Event = 
+StrSheet_Item = Strings of tooltip and name of the items
+StrSheet_Passivity = Strings of tooltip and name of the passivity
+StrSheet_PremiumCompose
+StrSheet_Quest = Strings of tooltip and name of the quests
+StrSheet_UI = All texts showed in the UI
+StrSheet_UserSkill = Strings of tooltip and name of the all skills
+TeleportTerritory = 
+TerritoryData
+VillagerDialog
+WorkObjectTerritory
+
+//FILES//
+
+AbnormalityMarker.xml = 
+AbuseLetterList.xml = list of words banned in chat
+AccCustomizeData.xml = 
+AccessoryColorVariation.xml = 
+AccessoryNameplateHeight.xml = 
+AccessoryUpHairData.xml = 
+AccountBenefit.xml = 
+AccountData.xml = 
+AccountTrait.xml = 
+AchievementGradeInfo.xml = how many points you need for laurels
+ActionVolumeState.xml = 
+AeroSet.xml = 
+AgitData.xml = 
+AirReactionData.xml = 
+AnimationData.xml = 
+ArcaneFx.xml = 
+AreaList.xml = 
+ArtConfig.xml = 
+ArtisanCategory.xml = data about the crafting (BOM)
+ArtisanConfig.xml = 
+ArtisanVillager.xml = 
+AttachEffectCondition.xml = 
+AttachMeshData.xml = 
+AutoWorldProfile.xml = 
+AwesomiumWeb.xml = welcome messange screen?
+BalloonGuide.xml = 
+BattleChipData.xml = 
+BattleFieldData.xml = 
+BattleInfoData.xml = 
+BattleMusicData.xml = 
+BettingData.xml = Information about BAMARAMA
+BGMList.xml = 
+BoardData.xml = 
+BookmarkData.xml = 
+BossGage.xml = 
+BuffSkillList.xml = 
+BuildObjectData.xml = 
+BuildObjectShape.xml = 
+BuildVersion.xml = 
+BulletData.xml = 
+CacheAnimSoundData.xml = 
+CacheEffectData.xml = 
+CacheNpcShapeData.xml = 
+CameraData.xml = 
+ChainData.xml = 
+ChangeableLevel.xml = 
+ChangeColorData.xml = 
+ChangeColorListData.xml = 
+ChangeShortCutIcon.xml = 
+CharmIconData.xml = 
+ChatClientConfigData.xml = 
+CheckPackageSizeData_Deployed.xml = check if you didnt alter some files to use japanese voice pack/costumes
+CityWarList.xml = 
+ClassExceptionData.xml = information about the minimun lvl of all classes
+ClassInfo.xml = information about classes when creating a new character
+CollectionCommonData.xml = 
+Collections.xml = 
+CollectionSkill.xml = 
+ConfigLetterList.xml = 
+ContinentCacheData.xml = 
+ContinentData.xml = 
+CreateCharData.xml = Condition to create class (reaper need lvl 40)
+CreditsData.xml = credits, the thing after you watched a movie with the name of people
+CrestCostData.xml = how many points glyphs use
+CrestData.xml = all data about glyphs
+CrestIconData.xml = glyph icons identification
+CustomExItem.xml
+CustomizeIconData.xml
+CustomizeKeyData.xml = id for everz keybind for the keyboard
+CustomizePadButtonData.xml = id for every keybind for a gamepad
+CustomizingItems.xml = 
+DailyPlayGuideQuest.xml = information about vanguard/repetable quests
+DailyQuest.xml = 
+DarkRiftData.xml = nexus 2.0 data
+DarkRiftDisplayConfig.xml
+DarkRiftReward.xml = rewards for nexus 2.0
+DefaultShortcutData.xml = lvl 1 default keybinds
+DefaultSkillSet.xml = skills that every class get at level 1
+DesignConfig.xml
+DialogImages.xml
+DropItemMesh.xml
+DungeonMatching.xml = minimum ilvl for ims dungeons
+DungeonRankCompensation.xml
+DungeonRecommend.xml = items showed in ims screen
+DungeonRetry.xml
+DungeonSoundData.xml
+DungeonWorkData.xml
+EffectData.xml = id and correspontent file for fx
+EffectSoundData.xml
+EmitterSound.xml
+EmoticonData.xml
+EnchantData.xml = enchant probability
+EnchantEquipmentBalance.xml
+EnchantFx.xml = fx when enchanting
+EnchantPopup.xml = 
+EnchantRecommendation.xml = enchant recomendation, how many feedstocks
+EnvCaseData.xml = 
+EpData.xml = information about talents
+EpExp.xml = exp necessary for each talent lvl
+EpIconData.xml = icons used by talents
+EpPerk.xml = talents data
+EquipmentData.xml =  data for all equipments
+EquipmentEnchantData.xml = bonus for every enchant in equipment
+EquipmentSetData.xml = data of the equipment sets
+EventMatching.xml = 
+FatigueConfig.xml = 
+FestivalSeason.xml = 
+FlagItemData.xml = 
+FloatingCastle.xml = 
+FloatingCastlePartsData.xml = 
+FloatingCastlePartsItem.xml = 
+FloatingCastleSetEffectList.xml = 
+FloatingCastleSetParts.xml = 
+FloatingCastleShape.xml = 
+FluidInfluence.xml = 
+FlyingData.xml = 
+FontSwapList.xml = 
+FootStepSound.xml = 
+ForbiddenNameList.xml = list of forbidden words for characters
+Friendship.xml = friendlist data per tier
+GambeItemData.xml
+GambleBoxData.xml
+GiveParcelData.xml
+GuardData.xml
+GuideEffect.xml
+GuildConfig.xml = guild exp and levels
+GuildEmblem.xml
+GuildQuest.xml = guild quests information
+GuildSearchData.xml
+GuildWarData.xml = how gvg points are calculated
+GuildWarListFormat.xml = 
+HelpData.xml = 
+HighwaySound.xml = 
+HitSoundData.xml = 
+HuntingZoneRelationList.xml = 
+IconList.xml = 
+IngameManager.xml = 
+InGameQuestion.xml = 
+InGameStore.xml = 
+InputRestrictionData.xml =  input chat caracters
+InvenForPCBang.xml = 
+InviteFriend.xml = 
+ItemDecompositionData.xml = 
+ItemExtractRecipe.xml = 
+ItemFilterInfo.xml = 
+ItemMixData.xml = 
+ItemProduceRecipe.xml = crafting data BOM
+ItemSorting.xml = how items are filtered
+ItemToolTip.xml = 
+KeyGuide.xml = 
+KeyMap.xml = 
+KeyMapLocalized.xml = 
+LimitedDrop.xml = open world drop table
+LoadingImageData.xml = 
+LoadUI.xml = 
+LobbyBGMList.xml = 
+LobbyData.xml = 
+LobbyPCSelection.xml = 
+LobbyShape.xml = 
+LordAchievementList.xml = vanarch achievements
+LowShape.xml = 
+MagneticData.xml = 
+MainMenu.xml = 
+MapEffectData.xml = 
+MapMarkerInfo.xml = 
+Masstiges.xml = 
+MatchRole.xml = 
+MedalItemSmallIconData.xml = 
+MiniGameRankRecorder.xml = 
+MirrorShape.xml = 
+MovieData.xml = 
+MovieDataLocalized.xml = 
+NamePlate.xml = 
+NewWorldMapData.xml = 
+NocTanData.xml = skills that use noctenium
+NocTanEffectData.xml = noc effect id
+NotifyMessageType.xml = 
+NpcArena.xml = 
+NpcAttachEffectData.xml = 
+NpcDeathEffect.xml = 
+NpcIKControl.xml = 
+NpcMovingLightData.xml = 
+NpcSeatData.xml = 
+NpcShaderData.xml = 
+NpcVoice.xml = 
+OnDeathSound.xml = 
+OptimizeOptionData.xml =  options>preset
+OptionRecommendation.xml = recomendations for crystals?
+OverlayEffects.xml = 
+OverrideMovingAnimationData.xml = 
+PackageExport.xml = 
+PadButtonMap.xml = 
+PartsData.xml = 
+PartsNameDef.xml = 
+PartsSoundData.xml = 
+PartyMatchingSetting.xml = 
+PassivityIconData.xml = 
+PCCustomizePreset.xml = 
+PCCustomizeRecommendation.xml = 
+PCDamage.xml = 
+PcFigureDefine.xml = 
+PcFigureExDefine.xml = 
+PcFigureExTransformData.xml = 
+PegasusData.xml = 
+PegasusRiderData.xml = 
+PetAbility.xml = 
+PetData.xml = 
+PetIncubation.xml = 
+Petition.xml = 
+PickItemData.xml = 
+PixieFollowing.xml = 
+PixieFollowingBeginner.xml = 
+PixieFollowingLittleFriend.xml = 
+PlayTimeEvent.xml = 
+PoliticsData.xml = 
+PoliticsItem.xml = 
+PostProcess.xml = 
+PremiumSlot.xml = 
+PreviewSet.xml = 
+PromotionConfig.xml = 
+QuestCompensationData = 
+QuestGroupList.xml = 
+QuestTaskItemIcon.xml = 
+RankingDungeon.xml = 
+RawStoneItems.xml = 
+Relax.xml = 
+ReplayMovie.xml = 
+Report.xml = 
+ReputationItem.xml = 
+ReputationSystem.xml = 
+ResourceSummary.xml = 
+ReturnUserGuide.xml = 
+ReverbSettings.xml = 
+RewardMessageType.xml = 
+S1ActionScriptTriggers.xml = 
+ScenarioDungeon.xml = 
+SelectCustomizingItems.xml = 
+Seren.xml = 
+SerenException.xml = 
+ServantData.xml = 
+ShieldTerritory = 
+ShortcutSetList.xml = 
+SituationExpressionData = 
+SituationOptionData.xml = 
+SkillHotKeyData.xml
+SkillToolTipChain.xml
+SlashCommand.xml
+SmartQueryData.xml
+SocketOffsetCustomizeList.xml
+StormEffectData.xml
+StrSheet_AbnormalityKind.xml
+StrSheet_AccountBenefit.xml
+StrSheet_AchievementGradeInfo.xml
+StrSheet_ActionKey.xml
+StrSheet_AdminTool.xml
+StrSheet_Agit.xml
+StrSheet_Artisan.xml
+StrSheet_AwesomiumWeb.xml
+StrSheet_BalloonGuide.xml
+StrSheet_BattleField.xml
+StrSheet_Betting.xml
+StrSheet_BFInfoBoard.xml
+StrSheet_Board.xml
+StrSheet_Charm.xml
+StrSheet_CharmKind.xml
+StrSheet_Chat.xml
+StrSheet_ChatChannelName.xml
+StrSheet_CityWar.xml
+StrSheet_ClassInfo.xml
+StrSheet_CollectionLoc.xml
+StrSheet_Collections.xml
+StrSheet_Countdown.xml
+StrSheet_Crest.xml
+StrSheet_CustomizeKeyData.xml
+StrSheet_CustomizePadButtonData.xml
+StrSheet_Customizing.xml
+StrSheet_DailyPlayGuideQuest.xml
+StrSheet_DarkRift.xml
+StrSheet_Days.xml
+StrSheet_Dreampiece.xml
+StrSheet_DungeonMatching.xml
+StrSheet_DungeonMatchingMail.xml
+StrSheet_DungeonRank.xml
+StrSheet_DungeonWork.xml
+StrSheet_EnchantableItem.xml
+StrSheet_EnchantPopup.xml
+StrSheet_EnchantRecommend.xml
+StrSheet_EpPerkData.xml
+StrSheet_EquipmentSetData.xml
+StrSheet_EventMatching.xml
+StrSheet_FloatingCastle.xml
+StrSheet_GameStat.xml
+StrSheet_Guild.xml
+StrSheet_GuildCompetition.xml
+StrSheet_GuildMail.xml
+StrSheet_GuildQuest.xml
+StrSheet_HelpData.xml
+StrSheet_HuntingZoneEvent.xml
+StrSheet_InGameStore.xml
+StrSheet_InputRestriction.xml
+StrSheet_InviteFriend.xml
+StrSheet_KeyGuide.xml
+StrSheet_LoadingImage.xml
+StrSheet_LordAchievement.xml
+StrSheet_Masstige.xml
+StrSheet_MiniGame.xml
+StrSheet_MonsterBehavior.xml
+StrSheet_Months.xml
+StrSheet_NocTan.xml
+StrSheet_NotifyMessage.xml
+StrSheet_Npc.xml
+StrSheet_NpcArena.xml
+StrSheet_NPCGuild.xml
+StrSheet_NPCGuildGroup.xml
+StrSheet_NpcLoc.xml
+StrSheet_NpcLocManual.xml
+StrSheet_Option.xml
+StrSheet_Parcel.xml
+StrSheet_Party.xml
+StrSheet_Petition.xml
+StrSheet_PetitionTitle.xml
+StrSheet_Politics.xml
+StrSheet_ReferAFriend.xml
+StrSheet_Region.xml
+StrSheet_ReplayMovie.xml
+StrSheet_Report.xml
+StrSheet_Reputation.xml
+StrSheet_ReturnUserGuide.xml
+StrSheet_RewardMessage.xml
+StrSheet_ScenarioDungeon.xml
+StrSheet_Seren.xml
+StrSheet_Servant.xml
+StrSheet_ServantSkill.xml
+StrSheet_SkillWindowPopUp.xml
+StrSheet_SlashCommand.xml
+StrSheet_SmartQuery.xml
+StrSheet_Social.xml
+StrSheet_StyleShop.xml
+StrSheet_Support.xml
+StrSheet_SystemMessage.xml
+StrSheet_Teleport.xml
+StrSheet_TerritoryLoc.xml
+StrSheet_TradeBrokerCategory.xml
+StrSheet_TrialAccount.xml
+StrSheet_Tutorial.xml
+StrSheet_UnidentifiedItem.xml
+StrSheet_VehicleSkill.xml
+StrSheet_VIPBenefit.xml
+StrSheet_VIPMail.xml
+StrSheet_VIPStoreAvatar.xml
+StrSheet_WorkObject.xml
+StrSheet_WorkObjectLoc.xml
+StrSheet_ZoneName.xml
+StyleCostumeData.xml
+StyleShopItemList.xml
+StyleShopMotionList.xml
+StyleShopSetting.xml
+StyleShopSound.xml
+SuperArmorEffect.xml
+Support.xml
+Synthesizers.xml
+SystemMessageKeywordStyle.xml
+SystemMessageStyle.xml
+SystemOption.xml
+TeleportData.xml
+TextureCacheList.xml
+TexturedFonts.xml
+TokenExchangeSystem.xml
+TooltipColorList.xml
+TooltipFormat.xml
+Tooltipstyle.xml
+TradeBrokerCategory.xml
+TradeBrokerSetting.xml
+TrialAccount.xml
+TutorialData.xml
+UIDefaultData.xml
+UIKeyString.xml
+UISoundEffectData.xml
+UIState.xml
+UnidentifiedItemData.xml
+UnifyShapeData.xml
+UserAttachEffectData.xml
+UserData.xml
+UserIKControl.xml
+UserInUse.xml
+UserShaderData.xml
+UserShape.xml
+UserToolData.xml
+VehicleData.xml
+VehicleExSoundData.xml
+VehicleSkillIconData.xml
+VideoOption.xml
+VillagerMenu.xml
+VIPBenefit.xml
+VIPShop.xml
+VIPStoreAvatar.xml
+VIPSystem.xml
+VoiceCustomize.xml
+VoiceIconData.xml
+WarMusicData.xml
+WeaponData.xml
+WeaponFx.xml
+WeaponSoundData.xml
+WeaponStatusConfig.xml
+WebServiceMenuData.xml
+WorkObjectData.xml
+WorkObjectShape.xml
+WorldData.xml
+WorldMapMarkerStyle.xml
+WorldProfile.xml
+WorldSum.xml
