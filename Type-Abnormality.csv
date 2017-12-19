@@ -1,1 +1,138 @@
-
+ID,effect
+1,Max Hp
+2,Max Mp
+3,Power
+4,Endurance
+5,Movement speed
+6,Crit Factor
+7,Crit Resist
+8,Impact
+9,Balance
+14,Resistence Weakening effects
+15,Resistence Periodic Damage
+16,Resistence to Stun
+18,All resistences
+19,Crit Power
+20,Aggro
+21,Mp decay
+22,Skill Damage
+23,Hunting XP
+24,Attack Speed
+25,Movement speed = 0?
+26,Crafting Speed
+27,Non combat movement speed
+28,Movement Speed
+29,Charging Speed
+30,Increases Stamina
+31,Gathering proficiencie
+32,Ragnarok
+33,Special Resource Storage
+34,Mount Movement Speed
+35,Crafting Speed
+40,Gold Hunter Boost
+41,Gold Quest Boost
+42,Reputation Boost
+43,Movement Distance
+51,hp/sec
+52,mp/sec
+61,Stun/sec
+62,FLAME
+63,Agrro /sec
+64,abnormality
+65,???
+66,(Hidden) Debuff Spirit of Iron for party members
+67,abnormality
+101,?????
+103,Kd resist
+104,Damage Reduction
+105,Increases Healing
+108,PvP dmg
+110,Reflect Damage
+112,?????
+113,agrro ????
+151,hp/hit
+153,Ragnarok
+161,Mangle
+162,Skill Damage
+163,Skill Damage??
+164,Hp recovery
+167,Crit Rate/Chance?
+168,PvP Attack
+169,Cd reduction
+181,Resolve on Block
+182,????
+190,????
+191,Snowman
+192,Physical Change
+193,Physical Change
+202,no hp/mp regen
+203,Noctenium
+204,????
+207,Prevent Stamina Reduction
+208,CDR
+209,Enable Skills
+210,Cannot Use skills
+211,Stun
+212,Immobilized.
+213,Reverse Movement keys
+216,Ignored by oppnents
+220,Remove Agrro
+221,Kill users
+223,???
+226,aura
+227,Warding dmg
+228,Absorve Dmg
+229,Free Ress
+230,Decreses hp consumption
+231,Increases dmg taken
+232,Terror
+233,Share Dmg
+234,Immune to all harmful effects
+235,Speed  Casting
+236,Charging Speed
+237,CrystalBind
+238,Innervation Elixir
+239,double iframe
+241,????
+242,Seren's Protection
+244,Dizzy Effect
+245,Immune to dmg
+246,????
+247,????
+248,????
+249,CCB
+251,Nexus Largesse
+252,???
+253,Damage is not diverted.
+254,Invisibility
+255,Drop Rate
+256,Overwatcher
+258,Restore Stamina
+259,Attack Range
+260,Restores Hp
+261,Reset Skill
+262,Special Resource Restoration
+264,abnormality
+265,Show inner armor
+266,Show inner armor
+271,????
+272,????
+273,????
+274,Knock up
+275,rotted
+276,Resets Ultimate Overhand Strike
+278,No falling dmg
+280,Increase Special energy regen
+281,????
+282,Noctenium
+283,Growing Fury
+287,Imune to kd/stagger
+288,No push Back
+289,Increase talent exp
+291,Increase enchantment success rate
+295,Stun
+296,Crafting Speed
+314,????
+316,Find Weakness
+317,Noctenium
+322,Crafting Skill
