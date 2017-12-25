@@ -1,1 +1,5 @@
 
+Profile Equations
+
+Basic Attack = (sum_attack_modifiers)*(3+0.03*Base_Power)
+Bonus_Attack = Basic_attack * (Bonus_Power/(100+Base_Power))
