@@ -1,0 +1,3 @@
+Icon : each leave is one abnormality , the icons are usually found in TERA\Client\S1Game\CookedPC\Art_Data\Packages\S1UI
+Icon.abnormalityId : the id of the abnormality
+Icon.iconName : The name of the icon name for the abnormality
