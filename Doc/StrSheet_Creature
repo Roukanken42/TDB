@@ -1,1 +1,9 @@
 1
+HuntingZone
+HuntingZone.Id : Id of the hunting
+HuntingZone.String
+HuntingZone.String.name : name of the NPC
+HuntingZone.String.class : class of the npc , not used for monsters
+HuntingZone.String.templateId : id of the NPCData
+HuntingZone.String.gender : gender of the npc
+HuntingZone.String.race : race of the npc
