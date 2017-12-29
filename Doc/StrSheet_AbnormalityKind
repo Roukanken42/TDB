@@ -1,0 +1,5 @@
+This file is used to determinate how the numbers of the abnormality description will be showed
+
+String :
+String.id : id of the abonormality
+String.name : how is preseted
