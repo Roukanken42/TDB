@@ -1,0 +1,20 @@
+EquipmentLookInfoData
+
+LookInfo : ????
+LookInfo.id : id of the equipment	
+LookInfo.amanFemalePartId : correspondent if for aman female {number}
+LookInfo.amanMalePartId : correspondent if for aman male {number}
+LookInfo.barakaMalePartId : correspondent if for baraka {number}
+LookInfo.castanicFemalePartId : correspondent if for castanic female {number}
+LookInfo.castanicMalePartId : correspondent if for castanic male {number}
+LookInfo.highelfFemalePartId : correspondent if for high elf female {number}
+LookInfo.highelfMalePartId : correspondent if for high elf male {number}
+LookInfo.humanFemalePartId : correspondent if for human female {number}
+LookInfo.humanMalePartId : correspondent if for human male {number}
+LookInfo.poporiFemalePartId : correspondent if for elin {number}
+LookInfo.poporiMalePartId : correspondent if for popori {number}
+LookInfo.engineer_castanicFemalePartId : correspondent if for castanic gunner {number}
+LookInfo.engineer_highelfFemalePartId : correspondent if for high elf gunner {number}
+LookInfo.fighter_humanFemalePartId : correspondent if for  brawler {number}
+LookInfo.assasin_poporiFemalePartId : correspondent if for ninja {number}
+LookInfo.soulless_poporiFemalePartId : correspondent if for reaper {number}
