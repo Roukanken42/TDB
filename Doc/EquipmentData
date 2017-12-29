@@ -1,0 +1,11 @@
+
+Equipment : ????
+Equipment.equipmentId : id of the equipment {number}
+Equipment.balance : total balance that the equipment give {number}
+Equipment.countOfSlot : how many crystals slot have {2,3,4}
+Equipment.def : total defense modifier that the equipment give {number}
+Equipment.impact : total impact modifier that the equipment give {number}
+Equipment.maxAtk : total attack modifier of the equipment is equal to minAtk {number}
+Equipment.minAtk : total attack modifier of the equipment is equal to minAtk {number}
+Equipment.passivityLinkG : link to a to a group of passivity that gives the base modifiers of the equipment {number}
+Equipment.part : which part of the armor the equipment go {BODY,HAND,FEET,FINGER,NECK,EAR,UNDERWEAR,BELT,ACCESSORYHAIR,STYLE_FACE,STYLE_HAIR,STYLE_WEAPON,STYLE_BODY,STYLE_BACK,BROOCH}
