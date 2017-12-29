@@ -1,0 +1,11 @@
+//information about item combinations
+itemMixId:Identity number
+successRate: rate of succes 0-1
+    Result:
+          successItemId:item you receive when succeded
+          successCount: quantity you receive when success
+          failedItemId: item you receive when failed
+          failedCount: quantity you receive when fail
+    Materials:
+          itemId: id of the item you need as material
+          count:quantity of this item
