@@ -1,0 +1,14 @@
+SkillList
+SkillList.class
+SkillList.skillId
+SkillList.level
+SkillList.gender
+SkillList.race
+SkillList.cost
+SkillList.isActive
+SkillList.learnType
+SkillList.prerequisiteActiveSkills
+SkillList.prerequisitePassiveSkill
+SkillList.prevSkillId
+SkillList.prevSkillOverride
+SkillList.isPkServerOnly
