@@ -1,0 +1,5 @@
+//Information of items categories that are filtered for each option in the inventory
+ItemFilterInfo
+ItemFilterInfo.Filter
+ItemFilterInfo.Filter.id: id of the filter
+ItemFilterInfo.Filter.category: items category
