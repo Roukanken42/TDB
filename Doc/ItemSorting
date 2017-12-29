@@ -1,0 +1,4 @@
+//item sorting priority in the inventory
+Category
+Catergory.category : category of the item
+Category.priority : priority of the category, lower the number = higher priority
