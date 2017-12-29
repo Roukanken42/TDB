@@ -1,0 +1,12 @@
+//used for retoll (eg. vm8->vm8.5)
+
+Token :
+Token.templateId : id item of the token used {number}
+Token.artifact : //there is no false, so impossible to tell
+Token.awaken : if can be used in an awaken item
+Token.enchant : if can be used in an enchanted item
+Token.masterpiece : if can be used in a masterwork item
+Token.scroll : ???? {true =vergos, false = accessory}??
+Token.InheritInfo : before and after
+Token.InheritInfo.targetTemplateId : item that is used {number}
+Token.InheritInfo.resultTemplateId : item that you get {number}
