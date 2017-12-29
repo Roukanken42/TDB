@@ -7,19 +7,19 @@ Template.size : size that show on minimap  ( small, medium, large)
 Template.shapeId : ????
 Template.gender :  gender of the npc
 Template.race : race of the npc
-Template.resourceSize: ????
-Template.resourceType:????
+Template.resourceSize: related with FX for spawn/despawn
+Template.resourceType:r elated with FX for spawn/despawn
 Template.parentId:????
-Template.basicActionId :????
+Template.basicActionId :id for BasicActionData
 Template.elite : if is elite
 Template.isFreeNamed :  if is a world bam
 Template.showAggroTarget : if show the orange circle that represent agroo
 Template.showShortermTarge : if show the purple circle of secondary agroo
-Template.despawnScriptId: ????
+Template.despawnScriptId: id for S1ActionScripts
 Template.invincible : if is invincible
-Template.spawScriptId : ????
-Template.villager : ????
-Template.aggro : ????
+Template.spawScriptId : id for S1ActionScripts
+Template.villager : if is friendly to the users
+Template.aggro : no data about it
 Template.NamePlate
 Template.NamePlate.nameplateHeight : ????
 Template.NamePlate.deathNameplateHeight : ????
