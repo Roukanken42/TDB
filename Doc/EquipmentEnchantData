@@ -1,0 +1,15 @@
+EnchantData
+EnchantData.Enchant
+EnchantData.Enchant.id : id of the equipment {number}
+EnchantData.Enchant.Effect
+EnchantData.Enchant.Effect.step : level of enchant {number}
+EnchantData.Enchant.Effect.passivityCategoryId : id category of the passivity (EnchantData.PassivityCategoryData) {number}
+EnchantData.Enchant.BasicStat
+EnchantData.Enchant.BasicStat.kind : type of basic stat {defece,attack,impact,balance}
+EnchantData.Enchant.BasicStat.rate : rate based on base value that modifier is increase at each step {number}
+EnchantData.Enchant.BasicStat.enchantStep : added when is +13 to +15 to used another values than +0 to +12 {number}
+EnchantData.PassivityCategoryData : list of all passivity the equipment have {number}
+EnchantData.PassivityCategoryData.Category 
+EnchantData.PassivityCategoryData.Category.id : category id {number}
+EnchantData.PassivityCategoryData.Category.passivityLink : id of the passivity is used {number}
+EnchantData.PassivityCategoryData.Category.unchangeable : means you cant rerroll
