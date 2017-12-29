@@ -1,0 +1,23 @@
+//crafting information
+
+Recipe
+Recipe.id : id of the recipe
+Recipe.grade : how much proficience you ( none, artisan, master)
+Recipe.categoryId : category of the recipe inside crafting
+Recipe.maxSkillProf : for how long you earn proficiency points
+Recipe.subFatiguePoint : how much pp cost
+Recipe.obtainable : //need check later//
+Recipe.needSkillId : skill necessary you need
+Recipe.recipeItemId : items id of the recipe
+Recipe.addOnSuccessProf : how many proficiency points you earn
+Recipe.needSkillProg : how many proficiency points you need
+Result
+Result.id : item id after the crafting
+Result.count : number of items you receive
+Result.criticalItemCount : id of item when crit
+Result.criticalItemId : number of items you receive
+Materials : list the materials necessary for the recipe
+Materials.Material
+Materials.Material.id : item id
+Materials.Material.count : quantity
+Materials.Material.enchant : enchant level ( old steadfast > wonderholme gear)
