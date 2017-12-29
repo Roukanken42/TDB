@@ -32,34 +32,3 @@ Abnormal.AbnormalityEffect.effectTime : duration of the effect {time in ms}
 Abnormal.AbnormalityEffect.attackEffectId : // i have no idea //
 Abnormal.AbnormalityEffect.isEnemyCheck : //CS bomb?//
 Abnormal.AbnormalityEffect.arcaneFxId : effect for when gunner willpower is full
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Abnormality Icon Data
-
-Icon : each leave is one abnormality , the icons are usually found in TERA\Client\S1Game\CookedPC\Art_Data\Packages\S1UI
-Icon.abnormalityId : the id of the abnormality
-Icon.iconName : The name of the icon name for the abnormality
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-StrSheet_Abnomality
-
-String : one abnormality for one leaf
-String.id : the id of the abormality
-String.name : the name of the abnormality
-String.tooltip : the description of the abnormality
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-AbnormalityMarker
-
-Special case used for kuma battleground heal aura
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-StrSheet_AbnormalityKind
-
-This file is used to determinate how the numbers of the abnormality description will be showed
-
-String :
-String.id : id of the abonormality
-String.name : how is preseted
-
