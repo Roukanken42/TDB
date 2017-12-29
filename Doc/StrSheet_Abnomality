@@ -1,0 +1,4 @@
+String : one abnormality for one leaf
+String.id : the id of the abormality
+String.name : the name of the abnormality
+String.tooltip : the description of the abnormality
