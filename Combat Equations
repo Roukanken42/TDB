@@ -1,6 +1,0 @@
-
-Profile Equations
-
-Basic Attack = (sum_attack_modifiers)*(3+0.03*Base_Power)           // white number
-Bonus_Attack = Basic_attack * (Bonus_Power/(100+Base_Power))        //green Number
-Total_Attack = Basic_attack + Bonus Attack                           //used for other calcs
