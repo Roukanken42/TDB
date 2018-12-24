@@ -325,127 +325,119 @@ SocketOffsetCustomizeList.xml
 StackAttendanceEvent.xml
 StatueData.xml = bahaar statue on hw info
 StormEffectData.xml
-StrSheet_Abnormality
 StrSheet_AbnormalityKind.xml
-StrSheet_AccessoryTransform.xml
-StrSheet_AccountBenefit.xml
-StrSheet_AchievementGradeInfo.xml
-StrSheet_ActionKey.xml
+StrSheet_AccessoryTransform.xml = accessory rotate
+StrSheet_AccountBenefit.xml = elite bonus
+StrSheet_AchievementGradeInfo.xml = laurel
+StrSheet_ActionKey.xml = F key
 StrSheet_AdminTool.xml
 StrSheet_Agit.xml
-StrSheet_Artisan.xml
+StrSheet_Artisan.xml = crafting test
 StrSheet_AwesomiumWeb.xml
 StrSheet_BalloonGuide.xml
 StrSheet_Banner.xml
-StrSheet_BattleField.xml
-StrSheet_Betting.xml
+StrSheet_BattleField.xml = battleground
+StrSheet_Betting.xml = bamarama
 StrSheet_BFInfoBoard.xml
-StrSheet_Board.xml
-StrSheet_Charm.xml
-StrSheet_CharmKind.xml
+StrSheet_Board.xml = boards
+StrSheet_Charm.xml = charms
+StrSheet_CharmKind.xml = charms
 StrSheet_Chat.xml
 StrSheet_ChatChannelName.xml
-StrSheet_CityWar.xml
-StrSheet_ClassInfo.xml
-StrSheet_CollectionLoc.xml
-StrSheet_Collections.xml
-StrSheet_Countdown.xml
-StrSheet_Creature.xml
-StrSheet_Crest.xml
+StrSheet_CityWar.xml = civil unrest
+StrSheet_ClassInfo.xml = class strings
+StrSheet_CollectionLoc.xml = gathering location
+StrSheet_Collections.xml = gathering
+StrSheet_Countdown.xml = alliance stuff
+StrSheet_Creature.xml = npc names
+StrSheet_Crest.xml = glyphs strings
 StrSheet_CustomizeKeyData.xml
 StrSheet_CustomizePadButtonData.xml
-StrSheet_Customizing.xml
-StrSheet_DailyPlayGuideQuest.xml
+StrSheet_Customizing.xml = shape changes
+StrSheet_DailyPlayGuideQuest.xml = vanguards
 StrSheet_DarkRift.xml
 StrSheet_Days.xml
-StrSheet_Dreampiece.xml
-StrSheet_Dungeon
+StrSheet_Dreampiece.xml = dreamstorm
 StrSheet_DungeonMatching.xml
 StrSheet_DungeonMatchingMail.xml
-StrSheet_DungeonRank.xml
-StrSheet_DungeonWork.xml
+StrSheet_DungeonRank.xml = ToT, SJG, Cruciable flame
+StrSheet_DungeonWork.xml = ace dungeon
 StrSheet_EnchantableItem.xml
 StrSheet_EnchantPopup.xml
 StrSheet_EnchantRecommend.xml
-StrSheet_EnchantRenewal.xml
-StrSheet_EpPerkData.xml
-StrSheet_EquipmentSetData.xml
-StrSheet_Event
+StrSheet_EnchantRenewal.xml = enchant strings ( exp , % changce...)
+StrSheet_EpPerkData.xml = ep strings
+StrSheet_EquipmentSetData.xml = equipment sets
 StrSheet_EventDialog.xml
 StrSheet_EventMatching.xml
-StrSheet_EventSystem.xml
-StrSheet_Field
+StrSheet_EventSystem.xml = bam huting event
 StrSheet_FlagItem.xml
-StrSheet_FloatingCastle.xml
+StrSheet_FloatingCastle.xml = skill castle
 StrSheet_GameStat.xml
-StrSheet_GmEvent.xml
-StrSheet_Guild.xml
-StrSheet_GuildCompetition.xml
-StrSheet_GuildMail.xml
-StrSheet_GuildQuest.xml
-StrSheet_HelpData.xml
-StrSheet_HuntingZoneEvent.xml
+StrSheet_GmEvent.xml = quiz
+StrSheet_Guild.xml = guild messages history
+StrSheet_GuildCompetition.xml = crusades
+StrSheet_GuildMail.xml = guild fund distribution
+StrSheet_GuildQuest.xml = guid quests
+StrSheet_HelpData.xml = help
+StrSheet_HuntingZoneEvent.xml = zone specific event
 StrSheet_InGameStore.xml
 StrSheet_InputRestriction.xml
-StrSheet_InviteFriend.xml
-StrSheet_Item
-StrSheet_KeyGuide.xml
-StrSheet_Leaderboards.xml
-StrSheet_LoadingImage.xml
-StrSheet_LordAchievement.xml
+StrSheet_InviteFriend.xml = buddy up system
+StrSheet_KeyGuide.xml = in game guide
+StrSheet_Leaderboards.xml = leaderboards
+StrSheet_LoadingImage.xml = loading screen tooltips
+StrSheet_LordAchievement.xml = vanarch
 StrSheet_Masstige.xml
-StrSheet_MiniGame.xml
-StrSheet_MonsterBehavior.xml
-StrSheet_Months.xml
-StrSheet_NocTan.xml
+StrSheet_MiniGame.xml = minigame strings ( summer event)
+StrSheet_MonsterBehavior.xml = monster strings
+StrSheet_Months.xml = months
+StrSheet_NocTan.xml = noctenium info
 StrSheet_NotifyMessage.xml
 StrSheet_Npc.xml
-StrSheet_NpcArena.xml
-StrSheet_NPCGuild.xml
-StrSheet_NPCGuildGroup.xml
+StrSheet_NpcArena.xml = Bamarama
+StrSheet_NPCGuild.xml = reputation description
+StrSheet_NPCGuildGroup.xml = reputation groups
 StrSheet_NpcLoc.xml
 StrSheet_NpcLocManual.xml
-StrSheet_Option.xml
-StrSheet_Parcel.xml
+StrSheet_Option.xml = options strings
+StrSheet_Parcel.xml = mail strings
 StrSheet_Party.xml
 StrSheet_Passivity
 StrSheet_Petition.xml
 StrSheet_PetitionTitle.xml
-StrSheet_Politics.xml
-StrSheet_PremiumCompose
-StrSheet_Quest
-StrSheet_ReferAFriend.xml
-StrSheet_Region.xml
-StrSheet_ReplayMovie.xml
+StrSheet_Politics.xml = vanarch system
+StrSheet_ReferAFriend.xml = refer system
+StrSheet_Region.xml = regions ( is below zones)
+StrSheet_ReplayMovie.xml = movies
 StrSheet_Report.xml
-StrSheet_Reputation.xml
-StrSheet_ReturnUserGuide.xml
-StrSheet_RewardMessage.xml
-StrSheet_ScenarioDungeon.xml
+StrSheet_Reputation.xml = reputation ranks
+StrSheet_ReturnUserGuide.xml = old player return
+StrSheet_RewardMessage.xml = rewards screen
+StrSheet_ScenarioDungeon.xml = echo aranea
 StrSheet_Seren.xml
-StrSheet_Servant.xml
-StrSheet_ServantSkill.xml
+StrSheet_Servant.xml = pet skills
+StrSheet_ServantSkill.xml = grettings
 StrSheet_SkillWindowPopUp.xml
-StrSheet_SlashCommand.xml
-StrSheet_SmartQuery.xml
-StrSheet_Social.xml
+StrSheet_SlashCommand.xml = slash commands
+StrSheet_SmartQuery.xml = broker query
+StrSheet_Social.xml= emotes
 StrSheet_StackAttendanceEvent.xml
-StrSheet_StyleShop.xml
+StrSheet_StyleShop.xml = wardbrode strings
 StrSheet_Support.xml
-StrSheet_SystemMessage.xml
-StrSheet_Teleport.xml
+StrSheet_SystemMessage.xml = system message strings
+StrSheet_Teleport.xml = teleport strings
 StrSheet_TerritoryLoc.xml
-StrSheet_TradeBrokerCategory.xml
+StrSheet_TradeBrokerCategory.xml = trade broker category
 StrSheet_TrialAccount.xml
-StrSheet_Tutorial.xml
-StrSheet_UI.xml
-StrSheet_UnidentifiedItem.xml
-StrSheet_UserSkill
-StrSheet_VehicleSkill.xml
-StrSheet_VIPBenefit.xml
-StrSheet_VIPMail.xml
-StrSheet_VIPStoreAvatar.xml
-StrSheet_WorkObject.xml
+StrSheet_Tutorial.xml = tutorial strings
+StrSheet_UI.xml = ui strings
+StrSheet_UnidentifiedItem.xml = strings masterwork/awakening....
+StrSheet_VehicleSkill.xml = skills strings for vehicles
+StrSheet_VIPBenefit.xml = stings benefits tera rewards
+StrSheet_VIPMail.xml = mail when leveling tera rewards
+StrSheet_VIPStoreAvatar.xml = strings tera rewards
+StrSheet_WorkObject.xml = interacable objects
 StrSheet_WorkObjectLoc.xml
 StrSheet_ZoneName.xml = zone names
 StyleCostumeData.xml
