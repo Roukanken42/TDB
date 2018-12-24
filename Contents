@@ -73,7 +73,7 @@ ActionVolumeState.xml =
 AeroSet.xml = 
 AgitData.xml = 
 AirReactionData.xml = 
-AnimationData.xml = 
+AnimationData.xml =  animation data ( duration , distance)
 ArcaneFx.xml = 
 AreaList.xml = 
 ArtConfig.xml = 
@@ -92,8 +92,8 @@ BattleMusicData.xml =
 BettingData.xml = Information about BAMARAMA
 BGMList.xml = 
 BoardData.xml = 
-BookmarkData.xml = 
-BossGage.xml = 
+BookmarkData.xml = travel journal
+BossGage.xml = bosses hp bar, distance to it and number of layers
 BuffSkillList.xml = 
 BuildObjectData.xml = 
 BuildObjectShape.xml = 
@@ -135,17 +135,21 @@ DailyQuest.xml =
 DarkRiftData.xml = nexus 2.0 data
 DarkRiftDisplayConfig.xml
 DarkRiftReward.xml = rewards for nexus 2.0
+Data.xml
+DecompositioData.xml = dismantle
 DefaultShortcutData.xml = lvl 1 default keybinds
 DefaultSkillSet.xml = skills that every class get at level 1
 DesignConfig.xml
 DialogImages.xml
+DirectionalWeakPointEffectData.xml = archer find weakness
 DropItemMesh.xml
+DungeonsConstrain = dungeon tokens costs
 DungeonMatching.xml = minimum ilvl for ims dungeons
 DungeonRankCompensation.xml
 DungeonRecommend.xml = items showed in ims screen
 DungeonRetry.xml
 DungeonSoundData.xml
-DungeonWorkData.xml
+DungeonWorkData.xml = ace dungeons
 EffectData.xml = id and correspontent file for fx
 EffectSoundData.xml
 EmitterSound.xml
@@ -162,6 +166,8 @@ EpIconData.xml = icons used by talents
 EpPerk.xml = talents data
 EquipmentData.xml =  data for all equipments
 EquipmentEnchantData.xml = bonus for every enchant in equipment
+EquipmentEvolutionData.xml = used when the gear revamp happened
+EquipmentExpData.xml = equipment exp
 EquipmentSetData.xml = data of the equipment sets
 EventMatching.xml = 
 FatigueConfig.xml = 
@@ -193,6 +199,7 @@ GuildWarListFormat.xml =
 HelpData.xml = 
 HighwaySound.xml = 
 HitSoundData.xml = 
+Hunting_Zone_AreaList = ???
 HuntingZoneRelationList.xml = 
 IconList.xml = 
 IngameManager.xml = 
