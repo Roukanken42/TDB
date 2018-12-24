@@ -247,69 +247,87 @@ NpcVoice.xml =
 OnDeathSound.xml = 
 OptimizeOptionData.xml =  options>preset
 OptionRecommendation.xml = recomendations for crystals?
-OverlayEffects.xml = 
-OverrideMovingAnimationData.xml = 
-PackageExport.xml = 
-PadButtonMap.xml = 
-PartsData.xml = 
-PartsNameDef.xml = 
-PartsSoundData.xml = 
-PartyMatchingSetting.xml = 
-PassivityIconData.xml = 
-PCCustomizePreset.xml = 
-PCCustomizeRecommendation.xml = 
-PCDamage.xml = 
-PcFigureDefine.xml = 
-PcFigureExDefine.xml = 
-PcFigureExTransformData.xml = 
-PegasusData.xml = 
-PegasusRiderData.xml = 
-PetAbility.xml = 
-PetData.xml = 
-PetIncubation.xml = 
-Petition.xml = 
-PickItemData.xml = 
-PixieFollowing.xml = 
-PixieFollowingBeginner.xml = 
-PixieFollowingLittleFriend.xml = 
-PlayTimeEvent.xml = 
-PoliticsData.xml = 
-PoliticsItem.xml = 
-PostProcess.xml = 
-PremiumSlot.xml = 
-PreviewSet.xml = 
-PromotionConfig.xml = 
-QuestCompensationData = 
-QuestGroupList.xml = 
-QuestTaskItemIcon.xml = 
-RankingDungeon.xml = 
-RawStoneItems.xml = 
-Relax.xml = 
-ReplayMovie.xml = 
-Report.xml = 
-ReputationItem.xml = 
-ReputationSystem.xml = 
-ResourceSummary.xml = 
-ReturnUserGuide.xml = 
-ReverbSettings.xml = 
-RewardMessageType.xml = 
-S1ActionScriptTriggers.xml = 
-ScenarioDungeon.xml = 
-SelectCustomizingItems.xml = 
-Seren.xml = 
-SerenException.xml = 
-ServantData.xml = 
-ShieldTerritory = 
-ShortcutSetList.xml = 
-SituationExpressionData = 
-SituationOptionData.xml = 
+OverlayEffects.xml
+OverrideMovingAnimationData.xml
+PackageExport.xml
+PadButtonMap.xml
+PartsData.xml
+PartsNameDef.xml
+PartsSoundData.xml
+PartyMatchingSetting.xml
+PassivityIconData.xml = passives icons
+PCClass.xml
+PCCustomizePreset.xml
+PCCustomizeRecommendation.xml
+PCDamage.xml
+PcFigureDefine.xml
+PcFigureExDefine.xml
+PcFigureExTransformData.xml
+PegasusData.xml
+PegasusPaths
+PegasusRiderData.xml
+PetAbility.xml
+PetData.xml
+PetIncubation.xml
+Petition.xml
+PickItemData.xml
+PixieFollowing.xml
+PlayTimeEvent.xml
+PoliticsData.xml
+PoliticsItem.xml
+PostProcess.xml
+PostProcessEffect.xml
+PremiumComposeGroup
+PremiumInventoryHighlightList.xml
+PremiumSlot.xml
+PreviewSet.xml
+PromotionConfig.xml = crafting tests
+PvpSystem.xml = pk data
+QuestFieldData.xml
+QuestGroupList.xml = quest groups
+QuestHeader.xml
+Questscript.xml
+QuestTaskItemIcon.xml
+RankingDungeon.xml
+RawStoneItems.xml
+ReactionEffectData
+Relax.xml
+ReplayMovie.xml
+Report.xml
+ReputationItem.xml = reputation items
+ReputationSystem.xml = reputation data
+ResourceSummary.xml = gpk file info
+RestBonusSystem.xml
+RestrictionOpenList.xml
+ReturnUserGuide.xml = player returning data 
+ReverbSettings.xml
+RewardMessageType.xml
+S1ActionScripts
+S1ActionScriptTriggers.xml
+ScenarioDungeon.xml
+ScriptInitData.xml
+SelectCustomizingItems.xml
+Seren.xml
+SerenException.xml = fairy for noobs
+ServantData.xml = pets info
+ShieldTerritory
+ShortcutSetList.xml
+SituationOptionData.xml
+SkillCameraEffectList.xml
 SkillHotKeyData.xml
-SkillToolTipChain.xml
-SlashCommand.xml
+SkillPolishingData.xml
+SkillPolishingEffectList.xml = cost and passives of each Polishing Effect
+SkillPolishingList = skill polishing info
+SkillToolTipChain.xml = skills chains
+SlashCommand.xml = slash commands
 SmartQueryData.xml
 SocketOffsetCustomizeList.xml
+StackAttendanceEvent.xml
+StatueData.xml = bahaar statue on hw info
 StormEffectData.xml
+StrSheet_Abnormality
 StrSheet_AbnormalityKind.xml
+StrSheet_AccessoryTransform.xml
 StrSheet_AccountBenefit.xml
 StrSheet_AchievementGradeInfo.xml
 StrSheet_ActionKey.xml
@@ -318,6 +336,7 @@ StrSheet_Agit.xml
 StrSheet_Artisan.xml
 StrSheet_AwesomiumWeb.xml
 StrSheet_BalloonGuide.xml
+StrSheet_Banner.xml
 StrSheet_BattleField.xml
 StrSheet_Betting.xml
 StrSheet_BFInfoBoard.xml
@@ -331,6 +350,7 @@ StrSheet_ClassInfo.xml
 StrSheet_CollectionLoc.xml
 StrSheet_Collections.xml
 StrSheet_Countdown.xml
+StrSheet_Creature.xml
 StrSheet_Crest.xml
 StrSheet_CustomizeKeyData.xml
 StrSheet_CustomizePadButtonData.xml
@@ -339,6 +359,7 @@ StrSheet_DailyPlayGuideQuest.xml
 StrSheet_DarkRift.xml
 StrSheet_Days.xml
 StrSheet_Dreampiece.xml
+StrSheet_Dungeon
 StrSheet_DungeonMatching.xml
 StrSheet_DungeonMatchingMail.xml
 StrSheet_DungeonRank.xml
@@ -346,11 +367,18 @@ StrSheet_DungeonWork.xml
 StrSheet_EnchantableItem.xml
 StrSheet_EnchantPopup.xml
 StrSheet_EnchantRecommend.xml
+StrSheet_EnchantRenewal.xml
 StrSheet_EpPerkData.xml
 StrSheet_EquipmentSetData.xml
+StrSheet_Event
+StrSheet_EventDialog.xml
 StrSheet_EventMatching.xml
+StrSheet_EventSystem.xml
+StrSheet_Field
+StrSheet_FlagItem.xml
 StrSheet_FloatingCastle.xml
 StrSheet_GameStat.xml
+StrSheet_GmEvent.xml
 StrSheet_Guild.xml
 StrSheet_GuildCompetition.xml
 StrSheet_GuildMail.xml
@@ -360,7 +388,9 @@ StrSheet_HuntingZoneEvent.xml
 StrSheet_InGameStore.xml
 StrSheet_InputRestriction.xml
 StrSheet_InviteFriend.xml
+StrSheet_Item
 StrSheet_KeyGuide.xml
+StrSheet_Leaderboards.xml
 StrSheet_LoadingImage.xml
 StrSheet_LordAchievement.xml
 StrSheet_Masstige.xml
@@ -378,9 +408,12 @@ StrSheet_NpcLocManual.xml
 StrSheet_Option.xml
 StrSheet_Parcel.xml
 StrSheet_Party.xml
+StrSheet_Passivity
 StrSheet_Petition.xml
 StrSheet_PetitionTitle.xml
 StrSheet_Politics.xml
+StrSheet_PremiumCompose
+StrSheet_Quest
 StrSheet_ReferAFriend.xml
 StrSheet_Region.xml
 StrSheet_ReplayMovie.xml
@@ -396,6 +429,7 @@ StrSheet_SkillWindowPopUp.xml
 StrSheet_SlashCommand.xml
 StrSheet_SmartQuery.xml
 StrSheet_Social.xml
+StrSheet_StackAttendanceEvent.xml
 StrSheet_StyleShop.xml
 StrSheet_Support.xml
 StrSheet_SystemMessage.xml
@@ -404,34 +438,39 @@ StrSheet_TerritoryLoc.xml
 StrSheet_TradeBrokerCategory.xml
 StrSheet_TrialAccount.xml
 StrSheet_Tutorial.xml
+StrSheet_UI.xml
 StrSheet_UnidentifiedItem.xml
+StrSheet_UserSkill
 StrSheet_VehicleSkill.xml
 StrSheet_VIPBenefit.xml
 StrSheet_VIPMail.xml
 StrSheet_VIPStoreAvatar.xml
 StrSheet_WorkObject.xml
 StrSheet_WorkObjectLoc.xml
-StrSheet_ZoneName.xml
+StrSheet_ZoneName.xml = zone names
 StyleCostumeData.xml
+StyleEffectItemData.xml
+StyleFootPrintFxData.xml
 StyleShopItemList.xml
 StyleShopMotionList.xml
 StyleShopSetting.xml
 StyleShopSound.xml
 SuperArmorEffect.xml
 Support.xml
-Synthesizers.xml
+Synthesizers.xml = synthetize weapon info
 SystemMessageKeywordStyle.xml
 SystemMessageStyle.xml
 SystemOption.xml
-TeleportData.xml
+TaskDef.xml
+TeleportData.xml = teleport data
 TextureCacheList.xml
 TexturedFonts.xml
 TokenExchangeSystem.xml
-TooltipColorList.xml
-TooltipFormat.xml
-Tooltipstyle.xml
-TradeBrokerCategory.xml
-TradeBrokerSetting.xml
+TooltipColorList.xml = tooltip colours
+TooltipFormat.xml = tooltip format
+Tooltipstyle.xml = tooltips colour scheme
+TradeBrokerCategory.xml = trade broker categories
+TradeBrokerSetting.xml = warning on Trade broker for lower price
 TrialAccount.xml
 TutorialData.xml
 UIDefaultData.xml
@@ -441,32 +480,34 @@ UIState.xml
 UnidentifiedItemData.xml
 UnifyShapeData.xml
 UserAttachEffectData.xml
-UserData.xml
+UserData.xml = mana regen info
 UserIKControl.xml
 UserInUse.xml
 UserShaderData.xml
 UserShape.xml
 UserToolData.xml
-VehicleData.xml
-VehicleExSoundData.xml
-VehicleSkillIconData.xml
+VehicleData.xml = mounts
+VehicleExSoundData.xml = mounts
+VehicleSkillIconData.xml = mounts
 VideoOption.xml
 VillagerMenu.xml
-VIPBenefit.xml
-VIPShop.xml
+VIPBenefit.xml = (NA) tera rewards bonus
+VIPShop.xml = (NA) tera rewards shop list
 VIPStoreAvatar.xml
-VIPSystem.xml
+VIPSystem.xml = (NA) tera rewards exp
 VoiceCustomize.xml
 VoiceIconData.xml
+VoiceScriptTypes.xml
 WarMusicData.xml
+WeakPointEffectAttachBone.xml = Valkyrie Runes info
+WeakPointEffectData.xml = Valkyrie Runes info
 WeaponData.xml
-WeaponFx.xml
-WeaponSoundData.xml
+WeaponFx.xml = weapon FX
+WeaponSoundData.xml = weapon sound info
 WeaponStatusConfig.xml
-WebServiceMenuData.xml
 WorkObjectData.xml
 WorkObjectShape.xml
-WorldData.xml
+WorkObjectTerritory
+WorldData.xml = player exp
 WorldMapMarkerStyle.xml
 WorldProfile.xml
-WorldSum.xml
