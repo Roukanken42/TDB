@@ -1,2 +1,33 @@
 condition,general effect
+1,Target Knock down
+3,Guild Member
+8,Perfect Defense
+9,Defense is Enraged
+10,Defense - Aggro
+11,Source is Knock Down
+13,????
+14,Directional Defense ( condition value 1 = front , 2 = behind)
+15,Source take damage
+16,Need use defensive skill
+17,When below the conditionValue Hp
+18,Decrease damage from crits
+21,Target is Knock down
+22,Target is knock up
+23,????
+24,Directional Attack ( condition value 1 = front , 2 = behind)
+25,????
+26,Attack Enraged
+28,Below the conditionValue Hp
+29,Attack Aggro
+30,????
+33,????
+35,????
+36,????
+37,????
 38,Has abnormal of kind [value]
+39,????
+41,No enemies without conditionValue Range
+62,????
+92,????
+94,????
+102,When Rage is above ConditionValue
